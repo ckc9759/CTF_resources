@@ -11,6 +11,16 @@ BINARY DECODER: https://cryptii.com/pipes/binary-decoder
 BASE64: https://www.base64decode.org/  
 HASH CRACK: https://crackstation.net/  
 CTF GUIDE: https://trailofbits.github.io/ctf/  
+CTFTIME: https://ctftime.org/  
+HACKERCTF: https://resources.infosecinstitute.com/topic/tools-of-trade-and-resources-to-prepare-in-a-hacker-ctf-competition-or-challenge/  
+CTFLEARN: https://ctflearn.com/dashboard  
+BEGINNER: https://dev.to/atan/what-is-ctf-and-how-to-get-started-3f04  
+MORSE DECODER: https://morsecode.world/international/decoder/audio-decoder-adaptive.html  
+DNA WRITER: https://earthsciweb.org/js/bio/dna-writer/  
+## CIPHER IDENTIFIER: https://www.dcode.fr/cipher-identifier  
+SYMBOL CIPHER: https://www.dcode.fr/symbols-ciphers  
+CAESAR CIPHER USING STRING KEYS: https://www.boxentriq.com/code-breaking/caesar-cipher  
+
 
 
 
