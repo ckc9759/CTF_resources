@@ -10,6 +10,7 @@ MAGIC NUMBER: https://bitvijays.github.io/LFC-Forensics.html
 HEXEDIT ONLINE: https://hexed.it/  
 APERI_SOLVE: https://aperisolve.fr/  
 STEGTOOL: https://stegonline.georgeom.net/upload  
+HEXAHEU COLOR ENCODING: https://www.geocachingtoolbox.com/index.php?lang=en&page=hexahue  
 
 
 
