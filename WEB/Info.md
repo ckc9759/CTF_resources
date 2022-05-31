@@ -49,7 +49,8 @@ Services on weird ports are common
 Dirbust for 2 minutes if nothing against it.
 Admin panels might pop up
 Vuln scan with Nikto. If you have a real commercial one, hit it, but you probably won't find anything. CTF challenges aren't supposed to be solved by a scanner.
-Always remember to use cheatsheets: https://github.com/OWASP/CheatSheetSeries/tree/master/cheatsheets
+Always remember to use cheatsheets: 
+```
+https://github.com/OWASP/CheatSheetSeries/tree/master/cheatsheets
 
  Fake it from there.
- ```
