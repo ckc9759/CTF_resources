@@ -8,5 +8,7 @@ HELPFUL PLAYLIST:
 https://www.youtube.com/playlist?list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN  
 https://www.roppers.org/courses/take/ctf/texts/32594780-what-you-will-learn  
 https://www.youtube.com/watch?v=uIkxsBgkpj8  
-
+https://www.hackthebox.com/
+https://www.cybrary.it/blog/strategies-to-win-a-ctf-how-to-approach-a-jeopardy-style-ctf/
+https://jaimelightfoot.com/blog/so-you-want-to-ctf-a-beginners-guide/
 
