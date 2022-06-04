@@ -8,6 +8,10 @@ Useful links: http://factordb.com/
 
 Generally in such CTF challenges, we are given 'n' 'e' and 'c' in the challenge.
 
+```python
+n=p*q
+```
+
 Then we have two more factors which is 'p' and 'q'.
 With the help of p and q, we calculate phi.
 
