@@ -8,6 +8,8 @@ Useful links: http://factordb.com/
 
 Generally in such CTF challenges, we are given 'n' 'e' and 'c' in the challenge.
 
+#### e is the public key...
+
 ```python
 n=p*q
 ```
