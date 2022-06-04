@@ -34,7 +34,7 @@ print(d)
 For the parameter m, we do 
 ```python
 m=pow(c,d,n)
-printhex(m)[2:-1].decode('hex'))
+print (hex(m)[2:-1].decode('hex'))
 ```
 
 This gives us the flag in general cases.
