@@ -11,7 +11,9 @@ Generally in such CTF challenges, we are given 'n' 'e' and 'c' in the challenge.
 #### e is the public key...
 
 ```python
+n is a modulus which is calculated using:
 n=p*q
+It is a link between public and private keys.
 ```
 
 Then we have two more factors which is 'p' and 'q'.
