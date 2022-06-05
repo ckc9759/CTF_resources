@@ -24,6 +24,27 @@ Also, always try admin:admin on everything you touch.
 As a near general rule, you will not bruteforce logins during CTFs, so don't do it without permission from organizers. If you are bruteforcing, you are likely wrong.
 ```
 
+
+### What else to look for
+```python
+1. buggy phps
+2. sensitive data exposure
+3. Injection attacks (SQL)
+4. Cross site scripting (XSS)
+5. Poor coding or site maintainence (cookies or source code or bin files or even robots.txt)
+6. Broken authentication
+7. Inclusion vulnerabilities
+8. version control artifacts
+```
+
+### Useful
+```
+wireshark/tcpdump to check for packets
+ngrep to search for string in packet capture
+Burpsuite
+Use curl sometimes to get the webpage in command line
+```
+
 #### Find all upload/content send mechanisms
 ```
 View source of pages
