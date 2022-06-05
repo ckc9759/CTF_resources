@@ -29,3 +29,8 @@ change the cookie and refresh the website it works in some cases. try observing 
 convert to hex using ascii will give the flag.
 ```
 
+## Search for flag.txt in php files
+```php
+/index.php?file=flag.txt
+Search lfi filter cheatsheet
+```
