@@ -34,3 +34,22 @@ convert to hex using ascii will give the flag.
 /index.php?file=flag.txt
 Search lfi filter cheatsheet
 ```
+
+### php
+```html
+https://www.php.net/manual/en/wrappers.glob.php
+```
+
+### What else to look for
+```python
+1. buggy phps
+2. sensitive data exposure
+3. Injection attacks (SQL)
+4. Cross site scripting (XSS)
+5. Poor coding or site maintainence (cookies or source code or bin files or even robots.txt)
+6. Broken authentication
+7. Inclusion vulnerabilities
+8. version control artifacts
+```
+
+
