@@ -38,3 +38,10 @@ print (hex(m)[2:-1].decode('hex'))
 ```
 
 This gives us the flag in general cases.
+
+### NOTE:
+---
+The trick with RSA is that e and d are related such that you can encrypt with either one and then decrypt it with the other.
+For actual encryption you encrypt with the public key, so the private key is required for decryption.
+But you can also "encrypt" it with your private key to sign the message - then everyone can "decrypt" it with your public key which verifies it was actually you who sent it.
+
