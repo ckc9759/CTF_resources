@@ -12,7 +12,7 @@ user user
 ```
 
 ## Xpath injection
-```sql
+```python
 ' or '1'='1
 ' or ''='
 ' or 1]%00
