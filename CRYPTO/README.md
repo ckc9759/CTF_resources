@@ -4,7 +4,8 @@
 
 `PICOCTF`: https://play.picoctf.org/practice  
 `DECODE TOOl`: https://tech.pookey.co.uk/non-wp/encoder-decoder.php  
-`ROT CIPHER`: https://www.dcode.fr/rot-cipher  
+`ROT CIPHER`: https://www.dcode.fr/rot-cipher 
+`CYBERCHEF`:https://gchq.github.io/CyberChef/
 ### `dCode`: https://www.dcode.fr/
 `BOXENTRIQ`: https://www.boxentriq.com/code-breaking  
 `BINARY DECODER`: https://cryptii.com/pipes/binary-decoder  
