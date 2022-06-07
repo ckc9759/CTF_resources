@@ -1,10 +1,10 @@
-Audio LSB 
+`Audio LSB`
 
-Way Back Machine
+`Way Back Machine`
 
-tool OurSecret
+`tool OurSecret`
 
-hexaheu color encoded image.- https://www.geocachingtoolbox.com/index.php?lang=en&page=hexahue
+`hexaheu color encoded image.`- https://www.geocachingtoolbox.com/index.php?lang=en&page=hexahue
 
 binwalk-extract hidden data
 strings-characters
