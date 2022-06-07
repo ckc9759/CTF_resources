@@ -2,9 +2,12 @@
 
 
 Useful commands
+
+`gdb -peda`
+
+`pd main`
+
 ```python
-gdb -peda command
-pd main
 1. To create a breakpoint in gdb peda use b* (hex value like 0x000000004011ca.
 checksec --file <filename? command- It checks for the securities applied to the Binary.
 
@@ -20,8 +23,5 @@ info func for info of functions.
 * Strlen() - Length of string.
 
 ```
+`x/s` - displays the argument to a hex value like x/s 0x40772
 
-```javascript
-x/s - displays the argument to a hex value like x/s 0x40772
-
-```
