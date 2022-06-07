@@ -1,8 +1,12 @@
 ### List of commands and tools
 
-`Audio LSB`
+`Audio LSB` - RGB variation
 
-`Way Back Machine`
+`Way Back Machine` - deleted info from social media
+
+`sonic visualizer` - audio files (wav)
+
+`notepad++` - hidden or invisible text lines viewer.
 
 `tool OurSecret`
 
