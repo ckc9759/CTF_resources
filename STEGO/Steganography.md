@@ -8,9 +8,7 @@
 
 `notepad++` - hidden or invisible text lines viewer.
 
-`tool OurSecret`
-
-`hexaheu color encoded image.`- https://www.geocachingtoolbox.com/index.php?lang=en&page=hexahue
+`tool OurSecret` - hiding file in another file
 
 `binwalk`-extract hidden data
 
