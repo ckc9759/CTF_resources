@@ -3,6 +3,8 @@
 RSA Encryption
 ---
 
+- It is a kind of assymetric cryptography.
+
 Useful links: http://factordb.com/
 
 
