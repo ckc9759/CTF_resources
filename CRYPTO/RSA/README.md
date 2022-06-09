@@ -4,6 +4,7 @@ RSA Encryption
 ---
 
 - It is a kind of assymetric cryptography.
+- Modular arithmetics
 
 Useful links: http://factordb.com/
 
