@@ -12,3 +12,7 @@ Sometimes the key is a string be careful !!
 `keyboard cipher`
 `cryptogram solver`
 `Brainfuck esoteric language`
+
+---
+
+- Use frequency analysis in case of subsitution cipher. For example letter `e` is most used letter (*13%*) followed by letter `t`. (*9%*)
