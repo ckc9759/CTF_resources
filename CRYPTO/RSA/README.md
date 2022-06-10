@@ -62,3 +62,18 @@ print(long_to_bytes(pow(s,e,n)))
 ```
 Flag  - n00bz{pl34s3_s1gn_h3r3_4nd_h3r3_4nd_h3r3...}
 
+```py
+>>> from Crypto.Util.number import *
+>>> n=245841236512478852752909734912575581815967630033049838269083
+>>> e=3
+>>> c=219878849218803628752496734037301843801487889344508611639028
+>>> p=416064700201658306196320137931
+>>> q=590872612825179551336102196593
+>>> phi=(p-1)*(q-1)
+>>> d=inverse(e,phi)
+>>> m=pow(c,d,n)
+>>> print(hex(m)[2:-1].decode("hex"))
+```
+
+If the last step does not work, convert the decimal to hexa and them hexa to ascii. SiMPLE..
+
