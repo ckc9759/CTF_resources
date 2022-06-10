@@ -15,5 +15,10 @@ STEGSNOW: https://delightlylinux.wordpress.com/2016/12/14/hide-text-in-text-file
 TWITTER STEGO: https://holloway.nz/steg/
 
 
+PLAYLISTS:
+
+IMAGE FORENSICS: https://www.youtube.com/watch?v=rvpvY8yRTK8
+
+
 
 tHaNk yOu
