@@ -20,6 +20,20 @@ It is a link between public and private keys.
 ```
 
 Then we have two more factors which is `p` and `q`.
+---
+When we have unknown p and q, we use this theory
+```python
+Let A=(p+q)/2 , i.e., A is mid point of p and q, which could be nearer to N−−√
+
+There exist an integer x so that, A−x=p and A+x=q
+
+N=pq = (A−x)(A+x)=A2−x2
+
+x=A2−N−−−−−−√
+
+Since we know A and N we can find x and subsequently p and q.
+```
+
 With the help of p and q, we calculate phi.
 
 ```python
