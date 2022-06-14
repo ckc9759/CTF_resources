@@ -74,4 +74,9 @@ Always remember to use cheatsheets:
 ```
 https://github.com/OWASP/CheatSheetSeries/tree/master/cheatsheets
 
- Fake it from there.
+Fake it from there.
+
+#### Latex injection
+```
+Sometimes, web challenges have latex injection where it render something when you type. To cract it you can use \input{/etc/passwd} or something as the question suggests.
+```
