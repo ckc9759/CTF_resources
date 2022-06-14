@@ -37,6 +37,8 @@
 `stegsnow` - It is used to hide text in txt files.  
 
 Formats- `stegsnow -C filename` and `stegsnow -C -p 'password' filename`  
+
+`Tweakpng` - It is used to modify the height and width of IHDR in png images.
  
 
 
