@@ -10,7 +10,7 @@
 
 `tool OurSecret` - hiding file in another file
 
-`binwalk`-extract hidden data
+`binwalk`-extract hidden data `binwalk --dd='.*' <filename>` or `binwalk -e -c <filename>`
 
 `strings`-characters
 
