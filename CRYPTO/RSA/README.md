@@ -86,7 +86,8 @@ Flag  - n00bz{pl34s3_s1gn_h3r3_4nd_h3r3_4nd_h3r3...}
 >>> phi=(p-1)*(q-1)
 >>> d=inverse(e,phi)
 >>> m=pow(c,d,n)
->>> print(hex(m)[2:-1].decode("hex"))
+>>> print(hex(m)[2:-1].decode("hex")) or
+>>> print(long_to_bytes(m))
 ```
 
 If the last step does not work, convert the decimal to hexa and them hexa to ascii. SiMPLE..
