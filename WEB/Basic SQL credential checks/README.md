@@ -1,3 +1,9 @@
+### Helpful links:
+https://ctflearn.com/lab/sql-injection-part-1
+
+
+
+
 ### COMMANDS:
 
 ```sql
