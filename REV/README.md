@@ -2,6 +2,10 @@
 
 This folder contains reverse engineering resources.
 
+### Useful links
+
+- https://www.md5online.org/md5-decrypt.html
+
 ### Imp. commands
 
 `Disassembly analysis`  
