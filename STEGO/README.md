@@ -18,7 +18,7 @@ HEX TO IMAGE: https://codepen.io/abdhass/full/jdRNdj
 PLAYLISTS:
 
 IMAGE FORENSICS: https://www.youtube.com/watch?v=rvpvY8yRTK8
-
+SECRETS HIDDEN: https://www.youtube.com/watch?v=TWEXCYQKyDc
 
 
 tHaNk yOu
