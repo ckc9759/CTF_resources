@@ -15,4 +15,6 @@ Introduction
 
 ### Ethics in hacking
   * Do not anything which is illegal.
-  * 
+  * Always take permission before breaching into the system.
+  * Test only authorized areas.
+  * Do not indulge into malpractises involving money or greed.
