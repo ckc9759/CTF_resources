@@ -9,4 +9,16 @@ Linux intro
   * Use linux commands and analyze vulnerable files.
   * Use linux-based security tools.
   * Exploit operating system.
+  
+* Applications of linux in real world:
+  * Powering smart cars.
+  * Android devices.
+  * Supercomputers.
+  * Home appliances.
+  * Enterprise servers etc.
+  
+
+
+
+
 
