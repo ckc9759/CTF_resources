@@ -17,8 +17,8 @@ HEX TO IMAGE: https://codepen.io/abdhass/full/jdRNdj
 
 PLAYLISTS:
 
-IMAGE FORENSICS: https://www.youtube.com/watch?v=rvpvY8yRTK8
-SECRETS HIDDEN: https://www.youtube.com/watch?v=TWEXCYQKyDc
+IMAGE FORENSICS: https://www.youtube.com/watch?v=rvpvY8yRTK8  
+SECRETS HIDDEN: https://www.youtube.com/watch?v=TWEXCYQKyDc  
 EXTRACTING FONTS OF PDF: https://www.pdfconvertonline.com/extract-pdf-fonts-online.html
 
 
