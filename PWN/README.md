@@ -23,5 +23,7 @@ info func for info of functions.
 * Strlen() - Length of string.
 
 ```
-`x/s` - displays the argument to a hex value like x/s 0x40772
+`x/s` - displays the argument to a hex value like x/s 0x40772.  
+`checksec` - It is used to view the options which are enabled and disabled in a binary file.  
+`Not stripped` - When we rev engineer the ELF file, we will be able to view the functions and it's properties.
 
