@@ -24,17 +24,28 @@ info func for info of functions.
 
 ```
 `x/s` - displays the argument to a hex value like x/s 0x40772.  
+
 `checksec --file <filename>` - It is used to view the options which are enabled and disabled in a binary file.  
+
 `Not stripped` - When we rev engineer the ELF file, we will be able to view the functions and it's properties. The strip command discards symbols from compiled object files.  
+
 `NX disabled` - Injecting shellcode is allowed.  
+
 `Stack - No canary found` - Buffer overflow   
+
 `chmod +x` - ELF permissions enabled.  
+
 
 ---
 
 * If we provide a very large input and get fail with segmentation fault, that means we can overflow the function.
 * cyclic 100 - It is used to generate a random string of length 100.
 * cyclic -l kaaa --> It can be used to find the offset.
+* `Integer overflow` - Sometimes, in pwn challenge, we are asked an input which when overflowed (i.e outside the range value), we get the flag eventually.
+
+---
+
+### Py Jail
 
 
 
