@@ -27,7 +27,12 @@ Finding the offset :
 2. The first four bytes in RSP is the offset.
 3. Use cyclic -l <four bytes> to find the actual offset.
 4. Use the offset to overflow the function and return statement.
+```
 
+---
+
+
+```py
 Steps : 
 disassemble flag
 (assume offset is 40)
@@ -50,6 +55,7 @@ Now, run < payload
 fake_flag Segmentation fault
 
 Now when we run the netcat command with the payload we get our flag.
+```
 
 ---
 
