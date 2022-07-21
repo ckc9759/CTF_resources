@@ -23,7 +23,8 @@
 `SYMBOL CIPHER`: https://www.dcode.fr/symbols-ciphers  
 `CAESAR CIPHER USING STRING KEYS`: https://www.boxentriq.com/code-breaking/caesar-cipher  
 `EASY CRYPTO CHALLS`: https://infosecwriteups.com/deep-ctf-writeup-part-2-8c2c4c7591bd
-`PLAYFAIR CIPHER` : https://www.boxentriq.com/code-breaking/playfair-cipher
+`PLAYFAIR CIPHER` : https://www.boxentriq.com/code-breaking/playfair-cipher  
+`SPAM MESSAGE CIPHER` : https://www.spammimic.com/decode.shtml
 
 tHaNk yOu
 
