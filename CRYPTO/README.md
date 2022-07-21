@@ -12,6 +12,7 @@
 `BASE64`: https://www.base64decode.org/  
 `HASH CRACK`: https://crackstation.net/  
 `CTF GUIDE`: https://trailofbits.github.io/ctf/  
+`CRYPTOGRAM` : https://www.boxentriq.com/code-breaking/cryptogram  
 `CTFTIME`: https://ctftime.org/  
 `HACKERCTF`: https://resources.infosecinstitute.com/topic/tools-of-trade-and-resources-to-prepare-in-a-hacker-ctf-competition-or-challenge/  
 `CTFLEARN`: https://ctflearn.com/dashboard  
