@@ -15,6 +15,7 @@
 `CRYPTOGRAM` : https://www.boxentriq.com/code-breaking/cryptogram  
 `CTFTIME`: https://ctftime.org/  
 `HACKERCTF`: https://resources.infosecinstitute.com/topic/tools-of-trade-and-resources-to-prepare-in-a-hacker-ctf-competition-or-challenge/  
+`PERL` : https://catonmat.net/perl-one-liners-explained-part-five  
 `CTFLEARN`: https://ctflearn.com/dashboard  
 `BEGINNER`: https://dev.to/atan/what-is-ctf-and-how-to-get-started-3f04  
 `MORSE DECODER`: https://morsecode.world/international/decoder/audio-decoder-adaptive.html  
