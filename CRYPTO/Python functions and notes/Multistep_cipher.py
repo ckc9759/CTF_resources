@@ -31,3 +31,5 @@ def encrypt(s):
 
 if __name__ == "__main__":
     encrypt(message)
+
+We have four levels on encoding : first b64 then xor then hex decoding then rotation or substitution.
