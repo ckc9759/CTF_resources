@@ -39,4 +39,6 @@ Steps -
 12. If it doesn't work try with the very next address from '
 ```
 
+Offset can be checked using the first four bytes in RSP like oaaa .
+
 ---
