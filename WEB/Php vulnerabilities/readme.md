@@ -28,4 +28,13 @@ if (isset($_GET['language'])) {
 
 ---
 
-- ### 
+- ### Type Errors / Type Juggling
+
+```php
+It includes vulnerabilites such as `is_string` where we can pass a command as a string even an array etc.
+Type juggling is another (similar) vulnerability where comparisons are made with == instead of ===, and automatic type conversion occurs. This can lead to exploitable bugs within the application.
+```
+
+```php
+
+
