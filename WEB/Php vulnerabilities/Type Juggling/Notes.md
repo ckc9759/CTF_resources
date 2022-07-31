@@ -36,5 +36,11 @@ So somehow we need to find a value whose md5 hash starts with 0e (e is exponenti
 
 ---
 
+### Example of injection for md4 hash loose comparison
+
+```php
+plaintext :  0e001233333333333334557778889
+md4 hash  :  0e434041524824285414215559233446
+```
 
 
