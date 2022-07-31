@@ -18,6 +18,9 @@ Remote file Inclusion and Local file Inclusion
 Any time code uses include, fopen, file_get_contents, file_put_contents, require_once or a whole host of other functions, it is potentially vulnerable!
 ```
 
+#### isset() function - It makes sure that the argument inside it is non empty.
+
+
 ```php
 <?php
 if (isset($_GET['language'])) {
