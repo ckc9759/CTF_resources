@@ -9,7 +9,8 @@ We can use an array as the password and hence, it will not be treated as a strin
 
 ```py
 After a bit more research, it seemed that strcmp had some issues when comparing a string to something else.
-If I set $_GET[‘password’] equal to an empty array, then strcmp would return a NULL. Due to some inherent weaknesses in PHP’s comparisons, NULL == 0 will return true
+If I set $_GET[‘password’] equal to an empty array, then strcmp would return a NULL.
+Due to some inherent weaknesses in PHP’s comparisons, NULL == 0 will return true
 ```
 
 #### Injection :
