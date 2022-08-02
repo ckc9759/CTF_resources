@@ -18,4 +18,14 @@ So, we can either use python printing A's and using binary search to find the of
 
 Once, we know the offset we can control the memory address by concatenating the address in bytes after the required number of A's.
 
+We use dmesg every time to find the offset where we will encounter sef fault for the first time. Then, we can concatenate the string with the memory address of the function we wish to execute.
 
+#### Example :
+
+```py
+python -c "print('A'*32 + '\x82\x40\x08\x3b')" | ./program
+```
+
+---
+
+Thank you
