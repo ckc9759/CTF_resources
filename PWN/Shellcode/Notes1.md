@@ -14,5 +14,11 @@ pwn.asm('push 0x08048540; ret')
 Output --> b'h@\x85\x04\x08\xc3'
 ```
 
+Now we can use this shellcode and supply it as input for the ELF file.
+
+---
+
+#### Injecting shellcode
+
 
 
