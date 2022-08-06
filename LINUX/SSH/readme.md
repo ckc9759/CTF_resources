@@ -29,4 +29,11 @@ find / -user bandit7 -group bandit6 -size 33c 2>&1 | grep -F -v Permission | gre
 
 ---
 
+To check if a line is ocurred only once i.e unique.
+
+```py
+cat data.txt | sort | uniq -c -u
+```
+
+---
 
