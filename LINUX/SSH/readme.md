@@ -12,3 +12,12 @@ Port --> 9759
 ssh ckc1404@ckc.lab.org -p 9759
 
 ---
+
+Finding a file with certain size and property.
+
+Example size 256 bytes and not executable
+
+--> `find -type f -size 256c ! -executable`
+
+---
+
