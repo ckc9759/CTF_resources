@@ -21,3 +21,12 @@ Example size 256 bytes and not executable
 
 ---
 
+Finding a user with name bandit7, group bandit6 and size 33 bytes.
+
+```py
+find / -user bandit7 -group bandit6 -size 33c 2>&1 | grep -F -v Permission | grep -F -v directory
+```
+
+---
+
+
