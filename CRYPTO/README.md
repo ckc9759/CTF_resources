@@ -7,7 +7,8 @@
 `ROT CIPHER`: https://www.dcode.fr/rot-cipher   
 `CYBERCHEF`:https://gchq.github.io/CyberChef/
 ### `dCode`: https://www.dcode.fr/
-`BOXENTRIQ`: https://www.boxentriq.com/code-breaking  
+`BOXENTRIQ`: https://www.boxentriq.com/code-breaking
+`MALBOLGE CIPHER` : https://malbolge.doleczek.pl/  
 `BINARY DECODER`: https://cryptii.com/pipes/binary-decoder  
 `CURSED LINGO`: https://lingojam.com/CursedText  
 `BASE64`: https://www.base64decode.org/  
