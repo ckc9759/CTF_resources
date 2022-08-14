@@ -24,6 +24,8 @@
 
 `cmp`-comparison
 
+`XOR` - We can xor a text or even a file using cyberchef file as input and then render it as an image.
+
 `steghide info file` - embedded data  
 
 `steghide extract -sf file` - embedded data extraction  
