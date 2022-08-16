@@ -14,6 +14,8 @@ checksec --file <filename? command- It checks for the securities applied to the 
 2. If stack is not canary it hints towards buffer overflow.
 info func for info of functions.
 
+3. PIE - stands for position independent execution.
+
 
 
 
