@@ -13,4 +13,7 @@ What can we do with a buffer overflow :
 
 ### Stack buffer overflow
 
+We can find the return adress of a function using a decompiler like ghidra or using readelf or objdump.
+
+
 
