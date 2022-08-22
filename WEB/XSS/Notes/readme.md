@@ -9,3 +9,10 @@ viewed by other users.
 An XSS vulnerability may be used by attackers to bypass access controls such as same origin policy.
 ```
 
+Example : 
+```py
+Xss injection --> <script> alert xss </script>
+```
+
+---
+
