@@ -27,4 +27,4 @@ int main() {
 
 Solution : 
 
-![bff.png]()
+![bff.png](bff.png)
