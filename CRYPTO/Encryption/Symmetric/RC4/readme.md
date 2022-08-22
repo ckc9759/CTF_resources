@@ -1,4 +1,4 @@
-### N o T e S : 
+## Rivest Cipher 4
 
 ---
 
