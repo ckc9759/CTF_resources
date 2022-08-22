@@ -2,7 +2,11 @@
 
 ---
 
-A representative stream cipher.
+```py
+[ also known as ARC4 or ARCFOUR, ]  
+```
+
+A representative stream cipher which uses a variable key length. It uses the same key for encryption and decryption, so it is also a symmetric encryption algorithm.
 
 - Stream cipher is a branch of symmetric key cipher. 
 - XOR-based common encryption/decryption processing.
@@ -25,4 +29,5 @@ print(plaintext)
 ```py
 from Crypto.Cipher import ARC4
 ```
+
 
