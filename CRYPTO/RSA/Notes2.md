@@ -17,21 +17,24 @@ m = s^e(mod(n))
 
 If we are given, (Sample)
 
-```
+```py
 n=2897471247204901
 e=65537
 p=3292305890382
 ct=203209401949039890890289
 ```
+
 Python script ;
 
-```
+```py
 q=n//p   #n=pq
 phi=(p-1)*(q-1)
 d=pow(e,-1,phi)
 m=pow(ct,d,n)
 print(hex(m))
 print(bytes.fromhex(hex(m)[2:1]))
+```
+
 
 
 
