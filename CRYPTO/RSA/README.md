@@ -3,8 +3,12 @@
 RSA Encryption
 ---
 
+Also known as Rivest-Shamir-Adleman
+
 - It is a kind of assymetric cryptography.
-- Modular arithmetics
+- Modular arithmetics (exponentiation)
+- The most widely used public-key cryptosystem.
+- 
 
 Useful links: http://factordb.com/
 
@@ -38,6 +42,7 @@ With the help of p and q, we calculate phi.
 
 ```python
 phi=(p-1)*(q-1)
+Euler's Totient function
 ```
 The last parameter left is `d`.
 
