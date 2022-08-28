@@ -17,6 +17,46 @@ The private key is also derived from the two prime numbers p and q.
 
 #### Algorithm
 
+```py
+Select two prime numbers p and q
+n = p * q
+
+We need a small exponent e in range (1,phi)
+
+Public key is made of n and e
+
+Private key generation 
+
+phi = (p-1)*(q-1) --> TOTIENT FUNCTION
+d = inverse(e,phi) or d=pow(e,-1,phi)
+```
+
+---
+
+Example --> 
+
+```py
+Let's suppose our msg ="HI"
+We convert it into bytes.
+H=8 and I=9
+
+ciphertext ct = (89^e)%n or 89^e mod n
+
+enc data = 1394
+
+Decryption : 
+
+Dec = *(ct)^d)%n or ct^d mod n
+
+dec=89 which converted to strinngs gives "Hi" back.
+```
+
+
+
+
+
+
+
 
 
 
