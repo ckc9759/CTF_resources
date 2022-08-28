@@ -8,7 +8,6 @@ Also known as Rivest-Shamir-Adleman
 - It is a kind of assymetric cryptography.
 - Modular arithmetics (exponentiation)
 - The most widely used public-key cryptosystem.
-- 
 
 Useful links: http://factordb.com/
 
