@@ -11,6 +11,7 @@
 `MALBOLGE CIPHER` : https://malbolge.doleczek.pl/  
 `BINARY DECODER`: https://cryptii.com/pipes/binary-decoder  
 `CURSED LINGO`: https://lingojam.com/CursedText  
+`RSACTFTOOL` : https://github.com/RsaCtfTool/RsaCtfTool  
 `BASE64`: https://www.base64decode.org/  
 `HASH CRACK`: https://crackstation.net/  
 `CTF GUIDE`: https://trailofbits.github.io/ctf/  
