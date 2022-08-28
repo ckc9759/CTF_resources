@@ -25,10 +25,14 @@ We need a small exponent e in range (1,phi)
 
 Public key is made of n and e
 
+# e must be co prime to n
+
 Private key generation 
 
 phi = (p-1)*(q-1) --> TOTIENT FUNCTION
 d = inverse(e,phi) or d=pow(e,-1,phi)
+
+Or e*d = 1 mod (phi)
 ```
 
 ---
