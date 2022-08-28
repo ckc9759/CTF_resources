@@ -25,7 +25,8 @@ We need a small exponent e in range (1,phi)
 
 Public key is made of n and e
 
-# e must be co prime to n
+# e must be co prime to phi(n)
+# 1 < e < 
 
 Private key generation 
 
