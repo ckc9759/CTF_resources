@@ -78,7 +78,7 @@ call - push eip and jmp func
 ```
 
 ```cpp
- mov si, sp ; Source Index       <- Question 3
+mov si, sp ; Source Index       <- Question 3
 So for this just moves the value of the Stack Pointer register into the Source Index register. In order to know what the value of si is after this, we need to know what the value of sp is. Looking up in the code, we see this on line 149:
 ```
 
