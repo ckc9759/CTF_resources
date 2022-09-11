@@ -18,3 +18,13 @@ grep "ckc" /home/downloads *.txt
 
 ---
 
+### Listing users on a ssh system
+
+```py
+cat /etc/passwd
+```
+
+---
+
+
+
