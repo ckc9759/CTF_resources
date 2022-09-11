@@ -35,6 +35,11 @@ Data exfiltration techniques :
 fcrackzip -b --method 2 -D -p /usr/share/wordlists/rockyou.txt -v ./file.zip
 ```
 
+### Exporting files from tcp or http or any other stream : 
+
+```py
+file then export objects and then choose the stream and save them all.
+```
 
 
 
