@@ -10,5 +10,35 @@
 
 - In pcapng file, we can use view to search for strings using search packet option.
 
+### Data Exfiltration
+
+```py
+It is the technique of of transferring unathorized data out of the network.
+Data exfiltration techniques : 
+
+- DNS
+- FTP/SFTP based file transfer
+- SMB based file transfer
+- HTTP/HTTPS 
+- Steganographical methods, like hiding data within images
+- ICMP
+- And many more. The sky's the limit for Exfiltration methods.
+```
+
+- Some attackers may attempt to obfuscate the data further by placing the data in an encrypted zip file.
+
+---
+
+### Cracking zip files : 
+
+```py
+fcrackzip -b --method 2 -D -p /usr/share/wordlists/rockyou.txt -v ./file.zip
+```
+
+
+
+
+
+
 
 
