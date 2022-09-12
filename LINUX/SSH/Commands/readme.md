@@ -26,5 +26,13 @@ cat /etc/passwd
 
 ---
 
+#### Users who can log into the ssh machine
+
+```py
+cat /etc/passwd | grep "/bin/bash" | wc -l
+```
+
+
+
 
 
