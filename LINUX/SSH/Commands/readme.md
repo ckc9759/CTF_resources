@@ -16,21 +16,33 @@ Searching only the txt files for string ckc
 grep "ckc" /home/downloads *.txt
 ```
 
----
-
 ### Listing users on a ssh system
 
 ```py
 cat /etc/passwd
 ```
 
----
-
 #### Users who can log into the ssh machine
 
 ```py
 cat /etc/passwd | grep "/bin/bash" | wc -l
 ```
+
+#### Sha1 hash of a file
+
+```py
+sha1sum filename
+```
+
+### Passwords :
+
+```py
+Stored in /cat/shadow
+
+cat /cat/shadow | grep -i "any string in password"
+```
+
+
 
 
 
