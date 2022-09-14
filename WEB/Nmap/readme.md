@@ -34,6 +34,8 @@ dirb http://19.12.13.162 -X .php
 -p- -> all port scan 
 -p -> specify port
 -sU -> UDP scan
+-sT -> TCP scan
 activate script -> --script
 ```
+
 
