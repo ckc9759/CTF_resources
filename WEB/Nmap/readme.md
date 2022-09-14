@@ -28,3 +28,12 @@ Directory bruteforce for particular files
 dirb http://19.12.13.162 -X .php
 ```
 
+#### Nmap Useful Switches 
+
+```py
+-p- -> all port scan 
+-p -> specify port
+-sU -> UDP scan
+activate script -> --script
+```
+
