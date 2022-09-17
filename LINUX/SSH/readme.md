@@ -39,5 +39,16 @@ cat data.txt | sort | uniq -c -u
 
 ---
 
+Important directories : 
+
+```
+/etc -- System files
+/etc/passwd -- passwords stored 
+/etc/shadow -- sha512 hash passwd
+/var -- variable data
+/root -- root user info and data
+/tmp -- temporary data
+```
+
 
 
