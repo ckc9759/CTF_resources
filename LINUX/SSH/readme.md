@@ -50,5 +50,8 @@ Important directories :
 /tmp -- temporary data
 ```
 
+#### Nth position on a list
 
-
+```cpp
+sed -n 148p /home/santa/naughty_list.txt 
+```
