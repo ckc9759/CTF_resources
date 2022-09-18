@@ -8,7 +8,7 @@ The answer to that question lies in websites such as:
 
 [NVD](https://nvd.nist.gov/vuln/search)
 
-[CVE Mitre](https://cve.mitre.org/)
+[CVE Mitre](https://cve.mitre.org/)  --> Common Vulnerabilities and Exposures
 
 ---
 
