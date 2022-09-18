@@ -1,6 +1,8 @@
 # C0NT4INS ST3G0 GU1D3S
 
-RESOURCES:  
+RESOURCES: https://0xrick.github.io/lists/stego/
+
+
 
 STRINGS: https://29a.ch/photo-forensics/#strings  
 STEGONLINE: https://stylesuxx.github.io/steganography/  
