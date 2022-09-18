@@ -1,3 +1,15 @@
+# Web Resources : 
+
+Vulnerability searching database websites : 
+
+The answer to that question lies in websites such as:
+
+[ExploitDB](https://www.exploit-db.com/)
+
+[NVD](https://nvd.nist.gov/vuln/search)
+
+[CVE Mitre](https://cve.mitre.org/)
+
 ### Hi guys,
 
 Now, here's my basic methodology... It's over simplified for hard stuff, but is very useful for someone who is doing basic web things. 
