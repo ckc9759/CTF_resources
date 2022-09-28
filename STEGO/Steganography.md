@@ -16,7 +16,7 @@
 
 `exiftool`-metadata
 
-`foremost`-extraction
+`foremost`-extraction : Audits the file and gives the output
 
 `exiv2`-metadata
 
