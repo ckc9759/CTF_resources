@@ -42,8 +42,6 @@ Formats- `stegsnow -C filename` and `stegsnow -C -p 'password' filename`
 
 `Tweakpng` - It is used to modify the height and width of IHDR in png images.
  
- `Tesseract` - It is used to list all the words in an image.
+`Tesseract` - It is used to list all the words in an image.
 
-
-
-
+`Convert abc.gif %02D.png` - Converts gif to all png frames and saves them.
