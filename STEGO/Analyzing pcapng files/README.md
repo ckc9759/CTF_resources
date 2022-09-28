@@ -13,6 +13,7 @@
 - In pcapng file, we can use view to search for strings using search packet option.
 - The `Black` segments in the pcap packets denote that the data has been segmented into different packets.
 - We can export all the objects of HTTP packets and try to assemble them.
+- If we found any RSA private key, use it to decrypt using ssl protocol inside the preferences and using user IP from the pcap file.
 
 ---
 
