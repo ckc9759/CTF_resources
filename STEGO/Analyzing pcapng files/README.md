@@ -1,4 +1,6 @@
-### What to do with a pcap file ???
+## What to do with a pcap file ???
+
+---
 
 - Look for it's tcp stream, if you find something change it to raw and then save it. Maybe, there is another file or something hidden there.
 
@@ -11,6 +13,9 @@
 - In pcapng file, we can use view to search for strings using search packet option.
 - The `Black` segments in the pcap packets denote that the data has been segmented into different packets.
 - We can export all the objects of HTTP packets and try to assemble them.
+
+---
+
 
 ### Data Exfiltration
 
