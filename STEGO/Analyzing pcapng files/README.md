@@ -9,6 +9,8 @@
 - command - `strings f4.pcapng | grep -i "GET /"`
 
 - In pcapng file, we can use view to search for strings using search packet option.
+- The `Black` segments in the pcap packets denote that the data has been segmented into different packets.
+- We can export all the objects of HTTP packets and try to assemble them.
 
 ### Data Exfiltration
 
