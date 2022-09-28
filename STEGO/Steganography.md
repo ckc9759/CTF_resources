@@ -45,3 +45,7 @@ Formats- `stegsnow -C filename` and `stegsnow -C -p 'password' filename`
 `Tesseract` - It is used to list all the words in an image.
 
 `Convert abc.gif %02D.png` - Converts gif to all png frames and saves them.
+
+`ImageMagic` - It is used to find relevant commands for steganography on Google.
+
+
