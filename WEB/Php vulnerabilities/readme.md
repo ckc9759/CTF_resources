@@ -2,11 +2,15 @@
 
 ---
 
-`GET PARAMETER` - It is used to pass a value in it. For example : &_GET['ckc'] , we can pass the value like `https://abcd.com?ckc="true"`
+`GET PARAMETER` - It is used to pass a value in it. For example : &_GET['ckc'] , we can pass the value like `https://abcd.com?ckc="true"`  
+
+```php
 If we say $username = $_GET['ckc'];, then the username variable will store the value entered in the GET parameter via ckc.
 
 Loose comparison --> == , !=  
 Strict comparison --> ===, !==  
+```
+
 
 ```php
 isset() --> Checks if the value passed in it is non empty.
