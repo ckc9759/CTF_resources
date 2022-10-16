@@ -55,3 +55,13 @@ Important directories :
 ```cpp
 sed -n 148p /home/santa/naughty_list.txt 
 ```
+
+### /opt
+
+```py
+Sometimes the directories in ssh aren't accessible directly as we don't have root permision.
+In that case, we can just use sudo -l to view the permissions.
+In my case, i found an opt directory with reader in it which didn't require any permissions to run
+```
+
+
