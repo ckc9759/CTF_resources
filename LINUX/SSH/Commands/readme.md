@@ -42,6 +42,12 @@ Stored in /cat/shadow
 cat /cat/shadow | grep -i "any string in password"
 ```
 
+### Environment variables
+
+```py
+env command
+```
+
 
 
 
