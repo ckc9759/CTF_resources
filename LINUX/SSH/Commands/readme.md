@@ -48,6 +48,16 @@ cat /cat/shadow | grep -i "any string in password"
 env command
 ```
 
+---
+
+## Finding a file (let's say abc)
+
+```py
+where abc
+locate abc
+
+or find / -name abc
+```
 
 
 
