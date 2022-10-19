@@ -14,8 +14,9 @@ The answer to that question lies in websites such as:
 
 ### Links : 
 
-1. https://medium.com/@Mr_R0w07/glug-ctf-web-writeup-490c8448d484
-2. For javascript analysis: http://www.jsnice.org/
-3. https://github.com/OWASP/CheatSheetSeries/tree/master/cheatsheets
+1. DNS : https://viewdns.info/  
+2. https://medium.com/@Mr_R0w07/glug-ctf-web-writeup-490c8448d484
+3. For javascript analysis: http://www.jsnice.org/
+4. https://github.com/OWASP/CheatSheetSeries/tree/master/cheatsheets
 
 
