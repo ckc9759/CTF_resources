@@ -9,3 +9,11 @@ Another basic XSS Injection :
 ```js
 <script>alert("flag")</script>
 ```
+
+---
+
+Reflected XSS
+
+```py
+Reflected XSS is a kind of cross-site scripting attack, where malicious script is injected into websites that are trusted or otherwise benign.
+```
