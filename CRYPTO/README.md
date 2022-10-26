@@ -10,6 +10,7 @@
 `BOXENTRIQ`: https://www.boxentriq.com/code-breaking  
 `MALBOLGE CIPHER` : https://malbolge.doleczek.pl/  
 `BINARY DECODER`: https://cryptii.com/pipes/binary-decoder  
+`VIGENERE` : https://www.guballa.de/vigenere-solver  
 `CURSED LINGO`: https://lingojam.com/CursedText  
 `RSACTFTOOL` : https://github.com/RsaCtfTool/RsaCtfTool  
 `JSFUCK RUNNER` : https://enkhee-osiris.github.io/Decoder-JSFuck/  
