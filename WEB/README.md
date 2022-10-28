@@ -15,8 +15,10 @@ The answer to that question lies in websites such as:
 ### Links : 
 
 1. DNS : https://viewdns.info/  
-2. https://medium.com/@Mr_R0w07/glug-ctf-web-writeup-490c8448d484
-3. For javascript analysis: http://www.jsnice.org/
-4. https://github.com/OWASP/CheatSheetSeries/tree/master/cheatsheets
+2. Beginner writeup : https://medium.com/@Mr_R0w07/glug-ctf-web-writeup-490c8448d484
+3. JS analysis: http://www.jsnice.org/
+4. Cheatsheet : https://github.com/OWASP/CheatSheetSeries/tree/master/cheatsheets
+
+
 
 
