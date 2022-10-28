@@ -1,6 +1,6 @@
 ### Directories to search for : 
 
-```bash
+```py
 /robot.txt
 /index.php
 /admin.php
