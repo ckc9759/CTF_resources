@@ -14,4 +14,6 @@ tcp contains "backup" -> searches for tcp stream which have backup transfer goin
 
 `SYN attack is a common attack used and commonly found in pcap transfer files`
 
+Analyze the tcp streams using the analyze section.
+
 
