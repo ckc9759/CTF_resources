@@ -13,4 +13,9 @@ Find .png files inside home
 find /home -name *.png
 ```
 
+Using Grep 
+
+```py
+grep -rnw "file path" -e 'flag'
+```
 
