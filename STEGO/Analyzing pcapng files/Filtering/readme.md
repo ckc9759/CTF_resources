@@ -16,4 +16,10 @@ tcp contains "backup" -> searches for tcp stream which have backup transfer goin
 
 Analyze the tcp streams using the analyze section.
 
+```py
+Search for protocol hierarchy and export objects accordingly 
+Maybe data is hidden in FTP protocol or some other protocol.
+Everytime, we don't use TCP and HTTP for transmitting data.
+```
+
 
