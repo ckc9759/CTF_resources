@@ -24,3 +24,7 @@ grep -r "flag" /backup/....
 Somtimes we have a directory with a name like ckc 123, then we must specify that space while writing file path as /backup/ckc\ 123/abc folder
 ```
 
+```py
+find . -type f -iname '*.txt' -ls
+```
+
