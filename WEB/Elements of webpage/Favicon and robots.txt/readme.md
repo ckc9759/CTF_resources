@@ -24,3 +24,15 @@ curl https://abc.com -v
 
 It is a version control system.
 
+---
+
+Automated directory bruteforcings : 
+
+```py
+dirb https://www.ckc.com     # Full bruteforce
+```
+
+```py
+dirb https://www.ckc.com -X .php    # Finds directories related to .php only
+```
+
