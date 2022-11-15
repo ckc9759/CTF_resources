@@ -20,6 +20,10 @@ SSH
 hydra -l <username> -P <full path to pass> <ip> -t 4 ssh
 ```
 
+```py
+hydra -l ckc -P /usr/share/wordlitsts/rockyou.txt ssh://<ip-addr>
+```
+
 Post web form
 ```py
 hydra -l <username> -P <password list> <ip> http-post-form "/<login url>:username=^USER^&password=^PASS^:F=incorrect" -V
