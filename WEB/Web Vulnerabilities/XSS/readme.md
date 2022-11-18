@@ -22,7 +22,9 @@ Reflected XSS is a kind of cross-site scripting attack, where malicious script i
 
 ```py
 cd ../../..;pwd;
-cd ../..;ls -al;pwd;
+cd ../..;ls -al;pwd; --> to traverse through directories
+
+less home/rick/secret.txt --> to open a file 
 
 #Vulnerable to command injection
 ```
