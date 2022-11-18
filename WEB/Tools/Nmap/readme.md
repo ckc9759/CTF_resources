@@ -14,6 +14,8 @@ Nmap is used for network scanning.
 
 ```py
 nmap -sC -sV 10.10.221.212
+
+nmap -A -sV 10.10.221.212
 ```
 
 Directory bruteforce on a website
