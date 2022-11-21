@@ -22,4 +22,9 @@ Maybe data is hidden in FTP protocol or some other protocol.
 Everytime, we don't use TCP and HTTP for transmitting data.
 ```
 
+#### Filtering by length and protocol
+
+```py
+data.len == 41 and UDP
+```
 
