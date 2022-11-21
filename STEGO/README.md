@@ -21,6 +21,7 @@ STEGOSAURUS: https://lukeslytalker.pythonanywhere.com/
 IMAGE DECODER : https://www.pelock.com/products/steganography-online-codec  
 ZWSP : https://neatnik.net/steganographr/#results
 CORRUPTED IMAGE RECOVERY : https://online.officerecovery.com/  
+DTMF TONES : http://dialabc.com/sound/detect/ (Audionography)
 
 
 PLAYLISTS:
