@@ -1,6 +1,6 @@
 import random
 
-enc = bytes.fromhex("4ec5f3eabac8335504") # Just an example hex
+enc = bytes.fromhex("4fcbac835550403f13c4cc337d8d8da48351921dfb7cd47d33857432c2ee665d821227") # Just an example hex
 
 seed = random.randint(0,999)
 random.seed(seed)
