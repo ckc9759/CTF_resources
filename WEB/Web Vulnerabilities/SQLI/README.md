@@ -9,7 +9,11 @@ https://ctflearn.com/lab/sql-injection-part-1
 ```sql
 admin'--
 admin' /*
-" or 1=1 --
+" or 1=1 -- 
+" OR 1=1 --
+```
+
+```sql
 ' or 1 or '
 ' or 1=1 --
 ' OR 1=1 --
