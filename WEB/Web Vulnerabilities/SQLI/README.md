@@ -9,6 +9,10 @@ https://ctflearn.com/lab/sql-injection-part-1
 ```sql
 admin'--
 admin' /*
+admin';
+ad'||'min'; // Concatenation operator : Concatenates and then terminates
+```
+```sql
 " or 1=1 -- 
 " OR 1=1 --
 ```
