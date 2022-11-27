@@ -28,3 +28,6 @@ Somtimes we have a directory with a name like ckc 123, then we must specify that
 find . -type f -iname '*.txt' -ls
 ```
 
+```py
+grep -r "NECTF{"
+```
