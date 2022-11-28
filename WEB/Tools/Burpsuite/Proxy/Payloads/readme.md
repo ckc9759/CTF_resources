@@ -10,6 +10,8 @@ User-Agent: Ckc # To change the user agent of the website
 Referer: ckc.com # To change the intial point of the website as if the user is coming from ckc.com
 ```
 
+https://play.picoctf.org/practice/challenge/142?category=1&page=1&solved=0
+
 ```py
 GET / HTTP/1.1
 Host: mercury.picoctf.net:34588
