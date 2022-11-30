@@ -2,6 +2,7 @@
 
 ---
 
+Server side template injection is possible when an attacker injects template directive as user input that can execute arbitrary code on the server.
 Example of a vulnerability : 
 
 ```py
