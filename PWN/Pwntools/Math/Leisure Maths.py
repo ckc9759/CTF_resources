@@ -25,3 +25,24 @@ while True:
 
 	tn.write(resp.encode())
 	tn.read_until(b"Correct!")
+
+#----------------------------------------------------------------------------------
+
+from pwn import *
+from tqdm import tqdm
+
+r = remote("chals.tuctf.com", 30202)
+
+for i in tqdm(range(1000)):
+    eq = r.recvline().strip()
+    if b"TUCTF" in eq:
+        print(eq)
+        r.interactive()
+    elif b"import" in eq:
+        continue
+    else:
+        res = eval(eq)
+        r.sendlineafter("Answer: ", str(res))
+        resdata = r.recvline().strip()
+        if b"TUCTF" in resdata:
+            print(resdata)
