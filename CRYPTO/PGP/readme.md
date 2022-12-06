@@ -15,6 +15,6 @@ gpg --import private.key
 #### Decrypting the ciphertext
 
 ```py
-gpg -decrypt ckc.gpg
+gpg --decrypt ckc.gpg
 ```
 
