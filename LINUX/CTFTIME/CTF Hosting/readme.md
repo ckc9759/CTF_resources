@@ -8,3 +8,7 @@
 
 3. [Useful link](https://www.coengoedegebure.com/hosting-a-ctf-made-easy/)
 
+4. CTFd Link : https://ctfd.io/
+
+5. Running CTFd : https://pwning.owasp-juice.shop/part1/ctf.html
+
