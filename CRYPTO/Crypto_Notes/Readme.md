@@ -4,6 +4,7 @@
 
 - Cryptography is used to protect confidentiality, ensure integrity, ensure authenticity. You use cryptography every day most likely, and you’re almost certainly reading this now over an encrypted connection.
 
+```
 Basic Concepts
 
  Plaintext - original message
@@ -16,4 +17,5 @@ Basic Concepts
  Cryptanalysis (code breaking) - study of principles/ methods of study of
 principles/ methods of deciphering ciphertext without knowing key
  Cryptology - field of both cryptography and cryptanalysis
+```
 
