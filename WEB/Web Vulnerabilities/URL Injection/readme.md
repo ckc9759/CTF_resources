@@ -12,3 +12,6 @@ ls;ls
 ```py
 ;ls
 ```
+```py
+{{request.args|safe}}
+```
