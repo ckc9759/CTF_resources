@@ -1,0 +1,7 @@
+### Blacklist Payloads
+
+---
+
+```
+del blacklist[:]
+```
