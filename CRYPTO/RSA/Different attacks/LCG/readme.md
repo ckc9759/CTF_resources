@@ -9,7 +9,8 @@ Random no. generator.
 ```py
 ssh-keygen -f private.pem -y | xclip
 ssh-keygen -f private.pem -y > public.pub
-chmod 400 private.pem 
+chmod 400 private.pem
+```
 
 <!--from Crypto.PublicKey import RSA
 from Crypto.Util import asn1
