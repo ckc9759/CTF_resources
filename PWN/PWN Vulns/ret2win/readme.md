@@ -16,8 +16,12 @@ In ret2win, we need to execute the win function to get the flag by overwriting t
 
 ```py
 1. Finding the padding
---> 
+--> Trial and error, binary search. Sent arbitrary characters until u get SEG fault for the first time.
 
+2. Find the address, using objdump or db and dc in radare. Form the exploit using py script and pwntools.
+```
+
+```
 ```py
 NO PIE - It means the executable file and server have the same coded source file and won't change each time the program loads.
 NX ENABLED - We cannot inject our own shellcode to the stack and execute it.
