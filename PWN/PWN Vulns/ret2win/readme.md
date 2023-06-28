@@ -9,6 +9,15 @@ In ret2win, we need to execute the win function to get the flag by overwriting t
 - Aim of the pwn challenge is generally to overflow the buffer and overwrite the return address.
 - It redirects the program towards a function which outputs the flag.
 
+#### Things to do in classic ret2win :
+
+- The padding until we begin to overwrite the return pointer (EIP)
+- What value we want to overwrite EIP to
+
+```py
+1. Finding the padding
+--> 
+
 ```py
 NO PIE - It means the executable file and server have the same coded source file and won't change each time the program loads.
 NX ENABLED - We cannot inject our own shellcode to the stack and execute it.
