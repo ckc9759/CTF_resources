@@ -31,6 +31,10 @@ pwx @esp --> it returns the address and value of esp register
 ds --> debug step, moves one step down
 ```
 
+```py
+rabin2 -I vuln --> Binary Analysis for Endianess
+```
+
 
 
 
