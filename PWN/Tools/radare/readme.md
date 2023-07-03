@@ -35,6 +35,16 @@ ds --> debug step, moves one step down
 rabin2 -I vuln --> Binary Analysis for Endianess
 ```
 
+```py
+ragg2 -P 100 -r --> De bruijn sequence (-P for length, -r for ascii)
+```
+
+```py
+wop0 <address> for offset
+```
+
+
+
 
 
 
