@@ -13,3 +13,9 @@ gobuster vhost -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000
 
 -w Wordlist -u URL
 ```
+
+### Files
+
+```linux
+-x --> specify files to look for
+```
