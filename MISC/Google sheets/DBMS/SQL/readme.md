@@ -7,5 +7,8 @@ Connect to mysql
 
 mysql -h <ip> -u <username?
 SHOW databases;
-USE <dbms name>;
+USE <dbms name>; --> Change database
+
+SHOW tables;
+SELECT * FROM <tablename>;
 ```
