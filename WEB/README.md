@@ -19,8 +19,8 @@ The answer to that question lies in websites such as:
 3. JS analysis: http://www.jsnice.org/
 4. Cheatsheet : https://github.com/OWASP/CheatSheetSeries/tree/master/cheatsheets  
 5. Certificate search : https://crt.sh/  
-6.
-
+6. Reverse shell : https://www.revshells.com/
+7. 
 
 
 
