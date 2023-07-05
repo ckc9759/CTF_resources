@@ -14,3 +14,9 @@ SELECT * FROM <tablename>;
 
 SELECT is_srvrolemember('sysadmin');
 ```
+
+### Cheatsheet
+
+```sql
+EXEC xp_cmdshell 'net user';
+```
