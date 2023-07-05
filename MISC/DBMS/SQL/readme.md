@@ -11,4 +11,6 @@ USE <dbms name>; --> Change database
 
 SHOW tables;
 SELECT * FROM <tablename>;
+
+SELECT is_srvrolemember('sysadmin');
 ```
