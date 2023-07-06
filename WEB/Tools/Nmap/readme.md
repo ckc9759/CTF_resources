@@ -16,6 +16,7 @@ Nmap is used for network scanning.
 nmap -sC -sV 10.10.221.212
 
 nmap -A -sV 10.10.221.212
+nmap -p- -sC -sV --min-rate 5000 10.10.11.214 -oN nmappc -Pn
 ```
 
 Directory bruteforce on a website
