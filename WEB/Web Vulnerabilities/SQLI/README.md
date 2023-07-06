@@ -11,6 +11,8 @@ admin'--
 admin' /*
 admin';
 ad'||'min'; // Concatenation operator : Concatenates and then terminates
+
+Check for * in admin passwd
 ```
 ```sql
 " or 1=1 -- 
