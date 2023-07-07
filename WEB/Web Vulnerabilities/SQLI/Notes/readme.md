@@ -23,7 +23,8 @@ You’d have noticed the additional dashes -- appended to that statement. This i
 
 #### From Portswigger
 
-SQLi refers to retrieving directly inaccesible data from SQL database.
+SQLi refers to retrieving directly inaccesible data from SQL database such as passwd, credentials, personal info.
+
 
 
 
