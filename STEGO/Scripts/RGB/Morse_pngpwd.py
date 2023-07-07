@@ -28,6 +28,8 @@ image = Image.open((sys.argv[1]))
 rgb = image.convert("RGB")
 width, height = image.size
 binString = ""
+color1=0
+color2=0
 
 for y in range(0, height, 1):
     binString += "\n"
@@ -52,3 +54,15 @@ binString = re.sub('\s+', ' ', binString)
 binString = binString.strip()
 
 decodedMorse(binString)
+
+'''
+#!/bin/sh
+while [ true ]; do
+    pwds=$(python3 convertMorse.py pwd.png 2>&1) 
+    #all passwords are lower case 
+    pwdsL=$(echo $pwds| tr '[:upper:]' '[:lower:]')
+    echo $pwdsL
+    unzip -P $pwdsL flag*.zip
+    mv convertMorse.py flag
+    cd flag
+done
