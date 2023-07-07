@@ -25,6 +25,16 @@ You’d have noticed the additional dashes -- appended to that statement. This i
 
 SQLi refers to retrieving directly inaccesible data from SQL database such as passwd, credentials, personal info.
 
+#### Detection of SQLI
+
+```py
+1. Submit ' and check for errors
+2. OR 1=1, OR 1=2
+3. SQLI payloads
+4. Submitting OAST payloads
+```
+
+
 
 
 
