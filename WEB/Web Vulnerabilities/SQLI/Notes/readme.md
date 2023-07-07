@@ -19,3 +19,11 @@ SELECT * FROM users WHERE email='$email’OR WHERE 1=1--'
 
 You’d have noticed the additional dashes -- appended to that statement. This is sometimes necessary. The double dash comments out the rest of the existing SQL query that exists after our injected query, this double dash ensures our query is a valid SQL query and there aren’t any mismatched quotation marks (remember we inserted an additional one before).
 
+---
+
+#### From Portswigger
+
+SQLi refers to retrieving directly inaccesible data from SQL database.
+
+
+
