@@ -66,3 +66,6 @@ while [ true ]; do
     mv convertMorse.py flag
     cd flag
 done
+
+while [ $? -eq 0 ]; do cd flag/; done
+'''
