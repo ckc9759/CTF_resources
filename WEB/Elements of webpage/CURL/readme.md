@@ -19,4 +19,8 @@ curl chall.battlectf.online:8081 -H "DNT: 1" -H "Referer: battlectf.online" -H "
 ```py
 curl --head
 # To find the headers of a website
+
+curl --cookie "<cookie values>"
+# to add a cookie and view response
 ```
+
