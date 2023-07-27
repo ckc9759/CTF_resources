@@ -14,6 +14,3 @@
 - [cheat_sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)
 ---
 
-#### Reflected XSS
-
-- 
