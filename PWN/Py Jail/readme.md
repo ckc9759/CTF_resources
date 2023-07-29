@@ -14,3 +14,6 @@ The reverse slash is used to type in hex in reverse format in python like \x48\x
 
 ```
 
+[Jail1](https://sidsbits.com/jail-escapes/)
+[wapiflapi](http://wapiflapi.github.io/2013/04/22/plaidctf-pyjail-story-of-pythons-escape.html)
+[hacktricks](https://book.hacktricks.xyz/generic-methodologies-and-resources/python/bypass-python-sandboxes)
