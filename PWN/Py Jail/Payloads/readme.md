@@ -13,7 +13,7 @@
 
 5. __import__('antigravity',setattr(__import__('os'),'environ',dict(BROWSER='ls" #%s')))
 
-6. 
+6. vars(vars()['__buil'+chr(116)+'ins__'])['prin'+chr(116)](_)
 ```
 
 
