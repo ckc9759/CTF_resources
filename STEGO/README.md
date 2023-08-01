@@ -30,7 +30,7 @@ PLAYLISTS:
 
 ARTICLES : 
 https://www.pelock.com/products/steganography-online-codec
-
+https://infosecwriteups.com/some-common-steganography-tools-for-ctfs-92e3de93f141
 
 IMAGE FORENSICS: https://www.youtube.com/watch?v=rvpvY8yRTK8  
 SECRETS HIDDEN: https://www.youtube.com/watch?v=TWEXCYQKyDc  
