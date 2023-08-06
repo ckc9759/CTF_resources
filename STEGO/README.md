@@ -24,6 +24,7 @@ CORRUPTED IMAGE RECOVERY : https://online.officerecovery.com/
 DTMF TONES : http://dialabc.com/sound/detect/ (Audionography)  
 UNICODE : https://freetools.textmagic.com/unicode-detector  
 STEG86 : https://github.com/woodruffw/steg86  
+PNG FIX : https://compress-or-die.com/repair
 
 
 PLAYLISTS:
