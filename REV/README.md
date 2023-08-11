@@ -5,6 +5,7 @@ This folder contains reverse engineering resources.
 ### Useful links
 
 - https://www.md5online.org/md5-decrypt.html
+- https://www.starcubelabs.com/reverse-engineering-ds/
 
 ### Imp. commands
 
