@@ -1,4 +1,3 @@
-```py
 #!/usr/bin/env python3
 
 from PIL import Image
@@ -74,6 +73,5 @@ for color in colors:
         texts += '_'
 
 print(texts)
-```
 
-Thank you
+#Thank you
