@@ -15,6 +15,8 @@ We cannot follow tcp or udb streams.
 `URB_INTERRUP` --> Keyboard, keystrokes.
 
 Filter
+
+#### Use the commands on filtered packets saved as a new file
 ```php
 usb.transfer_type==0x01 and frame.len==35 and !(usb.capdata==00:00:00:00:00:00:00:00)
 ```
