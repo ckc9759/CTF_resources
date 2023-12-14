@@ -26,7 +26,9 @@ Everytime, we don't use TCP and HTTP for transmitting data.
 
 ```py
 data.len == 41 and UDP
-
+icmp.type == 8
 data.len==60 and TCP
+http.request or http.response
+dns.qry.type == 1
 ```
 
