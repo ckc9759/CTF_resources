@@ -11,6 +11,7 @@
 
 - ssf
 - command - `strings f4.pcapng | grep -i "GET /"`
+- command - `capinfos <pcapfike>`
 
 - In pcapng file, we can use view to search for strings using search packet option.
 - The `Black` segments in the pcap packets denote that the data has been segmented into different packets.
