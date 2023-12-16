@@ -33,4 +33,5 @@ file on the host using protocols like HTTP, FTP etc.
 ---
 
 [LFI wordlists](https://github.com/carlospolop/Auto_Wordlists/blob/main/wordlists/file_inclusion_windows.txt)
+[Php LFI](https://medium.com/@cybenfolland/lfi-rce-escaping-docker-a-tryhackme-ctf-part-1-f6043846cef6)
 
