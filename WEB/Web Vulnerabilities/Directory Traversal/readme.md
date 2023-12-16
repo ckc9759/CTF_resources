@@ -14,3 +14,5 @@ https://vertical-traversal.tuctf.com/get/...%2Fflag.txt
 ```py
 for i in $(seq 3000 4000); do curl -s https://directory.web.actf.co/$i.html | grep -v "another file";done
 ```
+
+[Filtering](https://security.stackexchange.com/questions/96736/path-traversal-filter-bypass-techniques)
