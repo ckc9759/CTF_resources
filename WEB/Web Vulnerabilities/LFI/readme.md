@@ -20,6 +20,7 @@ http://unika.htb/index.php?page=../../../../../../../../windows/system32/drivers
 
 ```bash
 ../../../../../../etc/passwd
+../../../../etc/passwd
 ```
 
 
