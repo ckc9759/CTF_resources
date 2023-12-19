@@ -7,6 +7,7 @@
 ls;pwd
 123;cat flag.txt
 ls;pwd&&ls
+'ls;cat${IFS}-la'
 ```
 
 Filtering
