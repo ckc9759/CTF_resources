@@ -8,6 +8,8 @@ Another basic XSS Injection :
 
 ```js
 <script>alert("flag")</script>
+<img src/onerror=alert(1)>
+
 ```
 
 ---
