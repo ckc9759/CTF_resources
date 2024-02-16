@@ -30,5 +30,6 @@ icmp.type == 8
 data.len==60 and TCP
 http.request or http.response
 dns.qry.type == 1
+frame contains "password"
 ```
 
