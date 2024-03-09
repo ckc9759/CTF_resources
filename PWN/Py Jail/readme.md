@@ -14,6 +14,13 @@ The reverse slash is used to type in hex in reverse format in python like \x48\x
 
 ```
 
+### Approach
+
+1. Use bold or italics
+2. Check __class__ __subclass__ __globals__ __builtins__ __init__ to know what is accesible
+3. Check blacklist, whitelist and what all is allowed
+4. Try payloads
+
 [Jail1](https://sidsbits.com/jail-escapes/)
 [wapiflapi](http://wapiflapi.github.io/2013/04/22/plaidctf-pyjail-story-of-pythons-escape.html)
 [hacktricks](https://book.hacktricks.xyz/generic-methodologies-and-resources/python/bypass-python-sandboxes)
