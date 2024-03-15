@@ -19,6 +19,7 @@ Filter
 #### Use the commands on filtered packets saved as a new file
 ```php
 usb.transfer_type==0x01 and frame.len==35 and !(usb.capdata==00:00:00:00:00:00:00:00)
+tshark -r example.pcap -T fields -e usb.capdata > usbdata.txt
 ```
 ```php
 tshark -r ./Flag_Filter.pcap -Y 'usb.capdata && usb.data_len == 8' -T fields -e usb.capdata | sed 's/../:&/g2' > keystroke.txt
