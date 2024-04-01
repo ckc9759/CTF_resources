@@ -23,6 +23,7 @@ tshark -r example.pcap -T fields -e usb.capdata > usbdata.txt
 ```
 ```php
 tshark -r ./Flag_Filter.pcap -Y 'usb.capdata && usb.data_len == 8' -T fields -e usb.capdata | sed 's/../:&/g2' > keystroke.txt
+tshark -r ./keyboard.pcapng -Y 'usbhid.data' -T fields -e usbhid.data > keydata.txt
 ```
 
 [usb](https://ctf-wiki.mahaloz.re/misc/traffic/protocols/USB/)  
