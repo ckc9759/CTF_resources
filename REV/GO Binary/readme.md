@@ -6,4 +6,4 @@
 - Large size ( difficult RE )
 - Stripped binaries reduces size of file ( More difficult debuggin )
 - [goresym](https://github.com/mandiant/GoReSym) tool can be used ( Go symbol parcer )
-- 
+- [getCUJO](https://github.com/getCUJO/ThreatIntel) for ghidra
