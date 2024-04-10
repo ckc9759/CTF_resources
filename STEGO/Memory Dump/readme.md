@@ -7,3 +7,8 @@
 - [DFIR_Science](https://dfir.science/2022/02/Introduction-to-Memory-Forensics-with-Volatility-3)
 - [Github](https://github.com/mzfr/notes/blob/master/ctf/forensics.md)
 - 
+
+### Notes 
+
+```py
+volatile userassist plugin
