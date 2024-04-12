@@ -6,7 +6,7 @@ Then the next 4 hex codes are the image width and the very next 4 hex codes are 
 
 Then the next 5 hex codes aren't that relevant.
 
-After these 5 hex codes, we have the CRC check sum.
+After these 4 hex codes, we have the CRC check sum.
 
 
 ```py
