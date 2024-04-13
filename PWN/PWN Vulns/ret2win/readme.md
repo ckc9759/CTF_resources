@@ -4,6 +4,8 @@
 
 In ret2win, we need to execute the win function to get the flag by overwriting the EIP.
 
+Find the offset we use the value in `RSP` register.
+
 - First two steps, add permissions using chmod  +x file name.  
 - Then, check the options and protections enabled using checksec --file.  
 - Aim of the pwn challenge is generally to overflow the buffer and overwrite the return address.
