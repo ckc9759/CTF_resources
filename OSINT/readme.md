@@ -9,7 +9,7 @@
 `idcrawl` : https://www.idcrawl.com/  
 `geoestimation` : https://labs.tib.eu/geoestimation/  
 `gemini`
-
+`dorking` : https://gist.github.com/sundowndev/283efaddbcf896ab405488330d1bbc06  
 
 
 
