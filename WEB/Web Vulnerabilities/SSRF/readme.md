@@ -1,4 +1,7 @@
-Server-Side Request forgery
+### Server-Side Request forgery
+
+---
+[payload ssti](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/README.md)
 
 Example:
 
