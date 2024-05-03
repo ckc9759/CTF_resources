@@ -11,10 +11,20 @@ In ret2win, we need to execute the win function to get the flag by overwriting t
 - cyclic 100
 - run and check the RIP register which is the instruction pointer
 - cyclic -l <the four characters found>
-```
+- Find the return address, objdump, ghidra
 
 python3 -c 'print("A"*offset+"return address")' > payload
 ./ret2win < payload
+```
+
+```py
+/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 100
+Control the EIP or RIP
+
+Alternatively, inside gdb use pattern create 200
+```
+
+
 
 Find the offset we use the value in `RSP` register.
 
@@ -25,41 +35,7 @@ Find the offset we use the value in `RSP` register.
 
 #### Things to do in classic ret2win :
 
-- The padding until we begin to overwrite the return pointer (EIP)
-- What value we want to overwrite EIP to
-
-```py
-1. Finding the padding
---> Trial and error, binary search. Sent arbitrary characters until u get SEG fault for the first time.
-
-2. Find the address, using objdump or db and dc in radare. Form the exploit using py script and pwntools.
-```
-
-```
-```py
-NO PIE - It means the executable file and server have the same coded source file and won't change each time the program loads.
-NX ENABLED - We cannot inject our own shellcode to the stack and execute it.
-NO STACK CANARY - We can overflow the buffer and there won't be any canaries.
-PARTIAL RELRO - read and write availability.
-```
-
----
-
 Use Ghidra and GDB. 
-
-```py
-PUTS - It displays some output just like printf.
-GETS - It reads some data just like scanf.
-
-Finding the offset : 
-1. Generate a cyclic pattern : cyclic 100.
-2. The first four bytes in RSP is the offset.
-3. Use cyclic -l <four bytes> to find the actual offset.
-4. Use the offset to overflow the function and return statement.
-```
-
----
-
 
 ```py
 Steps : 
