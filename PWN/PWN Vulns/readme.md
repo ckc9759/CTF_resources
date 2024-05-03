@@ -7,13 +7,11 @@
 [ironstone](https://ir0nstone.gitbook.io/notes/other/pwntools) and [nightmare](https://guyinatuxedo.github.io/)
 
 ```py
-Stack :
-NX :
-PIE : When Position Independent Executables (PIE) is enabled in an ELF (Executable and Linkable Format) file, it means that the executable is designed to be loaded into memory at any address and still execute correctly. 
-RELRO :
-RWX :
+NO PIE - It means the executable file and server have the same coded source file and won't change each time the program loads. When Position Independent Executables (PIE) is enabled in an ELF (Executable and Linkable Format) file, it means that the executable is designed to be loaded into memory at any address and still execute correctly. 
+NX ENABLED - We cannot inject our own shellcode to the stack and execute it.
+NO STACK CANARY - We can overflow the buffer and there won't be any canaries.
+PARTIAL RELRO - read and write availability.
 ```
-
 
 ```py
 # Some commands
