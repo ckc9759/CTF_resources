@@ -17,4 +17,5 @@ Sometimes the key is a string be careful !!
 
 - Use frequency analysis in case of subsitution cipher. For example letter `e` is most used letter (*13%*) followed by letter `t`. (*9%*)
 
-https://cryptopals.com/
+[Cryptopals](https://cryptopals.com/)
+[Rootme](https://www.root-me.org/en/Challenges/)
