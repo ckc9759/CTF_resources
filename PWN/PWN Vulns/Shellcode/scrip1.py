@@ -8,6 +8,7 @@ def start(argv=[],*a, **kw):
   else:
     return process([exe]+argv,*a,**kw)
 
+#gdbscript='''init-peda'''.format(**locals())
 
 io=start()
 
