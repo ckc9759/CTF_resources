@@ -1,7 +1,9 @@
 ### Return to Lib-C
 
+
 ---
 
+[one gadget](https://github.com/david942j/one_gadget)
 ```py
 NX enabled - Shellcode method cannot be used
 ASLR enabled - address space layout randomization to prevent boff attacks
