@@ -1,5 +1,14 @@
 from pwn import *
 
+def start(argv=[],*a, **kw):
+  if args.GDB:
+    return gdb.debug([exe]+argv,gdbscript=gdbscript,*a,**kw)
+  elif args.REMOTE:
+    return remote(sys.argv[1],sys.argv[2],*a,**kw)
+  else:
+    return process([exe]+argv,*a,**kw)
+
+
 io=start()
 
 padding = 76 # Find using cyclic gdb or ghidra
