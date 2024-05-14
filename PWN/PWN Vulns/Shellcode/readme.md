@@ -27,6 +27,13 @@ pwn.asm('push 0x08048540; ret')
 Output --> b'h@\x85\x04\x08\xc3'
 ```
 
+```py
+import pwn
+pwn.shellcraft.i386.linux.cat('flag.txt')
+Use #Shell-storm on specified system arch, could be intel 386 (i386)
+(python -c 'print ...'; cat) | ./program # To keep the shell active 
+```
+
 Now we can use this shellcode and supply it as input for the ELF file.
 
 ---
