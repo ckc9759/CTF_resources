@@ -2,6 +2,12 @@
 
 ---
 
+#### John-hammond
+
+```py
+dmesg | tail
+```
+
 #### Crypto-cat
 
 [ironstone](https://ir0nstone.gitbook.io/notes/other/pwntools) and [nightmare](https://guyinatuxedo.github.io/)
