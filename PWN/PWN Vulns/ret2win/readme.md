@@ -12,7 +12,8 @@ In ret2win, we need to execute the win function to get the flag by overwriting t
 - run and check the RIP register which is the instruction pointer
 - cyclic -l <the four characters found>
 - Find the return address, objdump, ghidra (disass <function name>)
-For 64 bit ELF, take the first 4 bytes of RSP to find the offset, it works differently than 32 bit design.
+
+For 64 bit ELF, take the first 4 bytes of RSP to find the offset, it works differently than 32 bit design. We just need to find offset values to overflow the buffer and RBP to reach the RIP/Return address. For this, I use pattern create and pattern offset in gdb-peda and we check the register RBP register.
 
 python3 -c 'print("A"*offset+"return address")' > payload
 ./ret2win < payload
