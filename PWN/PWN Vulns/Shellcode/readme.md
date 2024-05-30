@@ -38,7 +38,14 @@ Now we can use this shellcode and supply it as input for the ELF file.
 
 ---
 
-#### Injecting shellcode
+#### NOPs
 
+No instruction pointer - helps marginally in shellcode injections.
+`XCHG EAX, EAX`
+`In intel x86 assembly, NOP instructions are \x90.`
+
+```py
+nop = asm(shellcraft.nop())
+```
 
 
