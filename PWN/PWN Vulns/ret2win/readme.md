@@ -17,6 +17,8 @@ For 64 bit ELF, take the first 4 bytes of RSP to find the offset, it works diffe
 
 python3 -c 'print("A"*offset+"return address")' > payload
 ./ret2win < payload
+
+endianess - rabin2 -I vuln
 ```
 `RET2WIN with parameters`
 
