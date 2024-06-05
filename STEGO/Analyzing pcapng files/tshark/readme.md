@@ -11,3 +11,10 @@ $ tshark -r chall.pcap -Y 'frame.number gt 4 && tcp.payload' -Tfields -e tcp.pay
 tshark -r traffic_capture.pcapng -Y "icmp.type==8"  -Tfields -e data.data  > new.txt
 ```
 
+```py
+tshark -r capture.pcapng -Y "frame.len==71" -T fields -e "usbhid.data.axis.x" -e "usbhid.data.axis.y" > a.txt
+-r for reading the capture.
+-Y for filter used.
+-T to set the fields flag.
+-e for extracting the required info needed, in this case (usbhid.data.axis.x) && (usbhid.data.axis.y).
+```
