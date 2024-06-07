@@ -7,6 +7,7 @@ The Coppersmith attack is a specialized attack in cryptography, particularly on 
 ```
 
 [Wikiwand](https://www.wikiwand.com/en/Coppersmith_method_)
+[gitgit](https://gsdt.github.io/blog/2018/07/20/stereotyped-message-attack/)
 
 ```py
 f(x) = m^e - c
