@@ -22,6 +22,8 @@ Use a help command which is more than 1 page long such that paginator is invoked
 3. Check blacklist, whitelist and what all is allowed
 4. Try payloads
 
-[Jail1](https://sidsbits.com/jail-escapes/)
-[wapiflapi](http://wapiflapi.github.io/2013/04/22/plaidctf-pyjail-story-of-pythons-escape.html)
-[hacktricks](https://book.hacktricks.xyz/generic-methodologies-and-resources/python/bypass-python-sandboxes)
+[Jail1](https://sidsbits.com/jail-escapes/)  
+[wapiflapi](http://wapiflapi.github.io/2013/04/22/plaidctf-pyjail-story-of-pythons-escape.html)  
+[hacktricks](https://book.hacktricks.xyz/generic-methodologies-and-resources/python/bypass-python-sandboxes)  
+[gynvael](https://gynvael.coldwind.pl/n/python_sandbox_escape)  
+
