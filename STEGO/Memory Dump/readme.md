@@ -12,3 +12,5 @@
 
 ```py
 volatile userassist plugin
+python3 vol.py -f mem_search.DUMP windows.filescan | grep -E 'Desktop|Downloads|Documents'
+
