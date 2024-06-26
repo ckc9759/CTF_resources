@@ -4,7 +4,7 @@
 
 [command](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Command%20Injection)
 ```py
-ls;pwd
+ls;pwd, ;ls, $(ls), `ls`
 123;cat flag.txt
 ls;pwd&&ls
 'ls;ls${IFS}-la'
