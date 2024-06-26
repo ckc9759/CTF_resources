@@ -9,6 +9,7 @@ curl -X POST "http://saturn.picoctf.net:52472/read.php" -d filename=../../../../
 
 ```py
 https://vertical-traversal.tuctf.com/get/...%2Fflag.txt
+../../../../../../../../etc/passwd -> Ultimately this will become /etc/passwd because the computer will not go a directory above its top directory.
 ```
 
 ```py
