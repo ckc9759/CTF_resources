@@ -2,7 +2,9 @@
 
 ---
 
-Task : We need to generate a JWT token having an admin role instead of having a user.
+JSON web tokens (JWTs) are a standardized format for sending cryptographically signed JSON data between systems. Use - authentication, session handling, and access control mechanisms.
+
+Task : We need to generate a JWT token having an admin role instead of having a user. Finding the key used to sign is important otherwise the signature for a different payload won't be correct.
 
 Sometimes the JWT is encrypted with some hashing algorithm, we need to break it using 'john the ripper' or other bruteforcing tool and reconstruct the jwt.
 
