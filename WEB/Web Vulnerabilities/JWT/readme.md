@@ -21,7 +21,7 @@ Time taken (sec): 0.123
 Total attempts: 20000
 ```
 
-4. `jwk header injection` - Create a new RSA key, use JWT editor, embed the jwk with your newly created RSA key and send the request.
+4. `jwk header injection` - Change the required paramter then create a new RSA key, use JWT editor, embed the jwk with your newly created RSA key and send the request.
 
 ```json
 {
@@ -34,5 +34,26 @@ Total attempts: 20000
         "kid": "ed2Nf8sb-sD6ng0-scs5390g-fFD8sfxG",
         "n": "yy1wpYmffgXBxhAUJzHHocCuJolwDqql75ZWuCQ_cb33K2vh9m"
     }
+}
+```
+
+5. `jku header injection` - A JWK Set is a JSON object containing an array of JWKs representing different keys. You can see an example of this below.
+
+```json
+{
+    "keys": [
+        {
+            "kty": "RSA",
+            "e": "AQAB",
+            "kid": "75d0ef47-af89-47a9-9061-7c02a610d5ab",
+            "n": "o-yy1wpYmffgXBxhAUJzHHocCuJolwDqql75ZWuCQ_cb33K2vh9mk6GPM9gNN4Y_qTVX67WhsN3JvaFYw-fhvsWQ"
+        },
+        {
+            "kty": "RSA",
+            "e": "AQAB",
+            "kid": "d8fDFo-fS9-faS14a9-ASf99sa-7c1Ad5abA",
+            "n": "fc3f-yy1wpYmffgXBxhAUJzHql79gNNQ_cb33HocCuJolwDqmk6GPM4Y_qTVX67WhsN3JvaFYw-dfg6DH-asAScw"
+        }
+    ]
 }
 ```
