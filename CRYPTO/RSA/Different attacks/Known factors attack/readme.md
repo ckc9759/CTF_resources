@@ -1,4 +1,4 @@
-IF the n given is a known one from the database then we can use this attack
+If the n of RSA is known and we can find even one of the factors, then we can decrypt the message of rsa using the following script.
 
 ```py
 from Crypto.Util.number import *
