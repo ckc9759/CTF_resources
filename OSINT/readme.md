@@ -10,8 +10,8 @@
 `geoestimation` : https://labs.tib.eu/geoestimation/  
 `gemini`
 `dorking` : https://gist.github.com/sundowndev/283efaddbcf896ab405488330d1bbc06  
-`OpenStreetMaps` :  https://www.openstreetmap.org/#map=4/21.84/82.79
-`Overpass` : https://overpass-turbo.eu/
+`OpenStreetMaps` :  https://www.openstreetmap.org/#map=4/21.84/82.79  
+`Overpass` : https://overpass-turbo.eu/  
 
 
 
