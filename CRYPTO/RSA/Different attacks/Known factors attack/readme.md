@@ -1,7 +1,8 @@
 IF the n given is a known one from the database then we can use this attack
 
 ```py
-n= 3240340324348240233
+from Crypto.Util.number import *
+n=3240340324348240233
 p=3804273792473893
 q=239483048902
 e=65537
