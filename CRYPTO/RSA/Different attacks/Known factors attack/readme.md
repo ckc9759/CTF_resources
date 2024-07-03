@@ -11,4 +11,6 @@ phi=(p-1)*(q-1)
 d=inverse(e,phi)
 m=pow(c,d,n)
 print(long_to_bytes(m))
+
+# Change the values n,e,c,p,q as per your need, rest remains the same
 ```
