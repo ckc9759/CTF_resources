@@ -8,3 +8,7 @@ db main
 doo
 dc
 pdf --> Print current function
+r2 -d -A <filename>
+afl
+aaa
+
