@@ -13,4 +13,6 @@
 ```py
 volatile userassist plugin
 python3 vol.py -f mem_search.DUMP windows.filescan | grep -E 'Desktop|Downloads|Documents'
-
+python3 vol.py -f <filename> imageinfo --> --profile <profile name>
+Run consoles plugin for cmdline history.
+Use memdump to dumpfiles with pid and output directory.
