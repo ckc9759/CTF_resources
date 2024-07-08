@@ -14,6 +14,11 @@ https://jaimelightfoot.com/blog/so-you-want-to-ctf-a-beginners-guide/
 https://ctflearn.com/dashboard
 https://eritque-arcus.tech/ctf-cheatsheet/
 
+> ### Useful links :
+
+[devploit](https://github.com/devploit/awesome-ctf-resources),  
+
+---
 RECOMMENDED VIDEO RESOURCES : 
 
 ```py
