@@ -15,7 +15,7 @@ MIIEow... base64 string
 from Crypto.PublicKey import RSA
 
 RSA=RSA.importKey(open('private.pem').read())
-
+# for .DER files, read the file in bytes !
 print(RSA.n)
 print(RSA.d)
 ```
