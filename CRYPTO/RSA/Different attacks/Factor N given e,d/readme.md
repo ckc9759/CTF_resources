@@ -6,6 +6,7 @@
 
 ```py
 e*d-1=k*phi(n)
+The exponents e and d are linked by the relation e d = 1 + k ϕ ( N ) with k integer. Since N and ϕ ( N ) are close, we look for the closest integer to e d − 1 N to find k .
 ```
 
 ```py
