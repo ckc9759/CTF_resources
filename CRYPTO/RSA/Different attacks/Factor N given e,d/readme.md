@@ -52,3 +52,16 @@ def factorize(n, e, d):
             else:
                 break
 ```
+
+```py
+# Finding phi
+k = (e * d - 1) // N
+
+while True:
+    phi = (e * d - 1) // k
+    if(phi * k == (e*d - 1)):
+        break
+    k += 1
+
+print(phi)
+```
