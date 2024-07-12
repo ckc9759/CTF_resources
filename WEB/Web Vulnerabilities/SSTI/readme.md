@@ -2,7 +2,15 @@
 
 ---
 
-Server side template injection is possible when an attacker injects template directive as user input that can execute arbitrary code on the server.
+Server side template injection is possible when an attacker injects template directive as user input that can execute arbitrary code on the server (Server-side).
+
+Testing - `${{<%[%'"}}%\` use to check if any error occurs.
+If an exception is raised, this indicates that the injected template syntax is potentially being interpreted by the server in some way. This is one sign that a vulnerability to server-side template injection may exist.
+
+![image](https://github.com/user-attachments/assets/4408a527-a6be-4540-bdee-8bc9f419753f)
+
+[Portswigger](https://portswigger.net/web-security/server-side-template-injection/exploiting)  
+
 Example of a vulnerability : 
 
 ```py
