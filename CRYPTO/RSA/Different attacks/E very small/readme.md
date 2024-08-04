@@ -37,4 +37,7 @@ m = long_to_bytes(gmpy.root(ct,3)[0])
 print(m)
 ```
 
+```py
+long_to_bytes(int(ZZ(c).nth_root(e)))
+```
 
