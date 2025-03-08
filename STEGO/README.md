@@ -38,6 +38,7 @@ https://infosecwriteups.com/some-common-steganography-tools-for-ctfs-92e3de93f14
 IMAGE FORENSICS: https://www.youtube.com/watch?v=rvpvY8yRTK8  
 SECRETS HIDDEN: https://www.youtube.com/watch?v=TWEXCYQKyDc  
 EXTRACTING FONTS OF PDF: https://www.pdfconvertonline.com/extract-pdf-fonts-online.html
+QR CODE : https://merri.cx/qrazybox/
 
 
 tHaNk yOu
