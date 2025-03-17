@@ -52,6 +52,11 @@ fcrackzip -b --method 2 -D -p /usr/share/wordlists/rockyou.txt -v ./file.zip
 file then export objects and then choose the stream and save them all.
 ```
 
+john --format=NT --wordlist=/usr/share/wordlists/rockyou.txt hashes.txt
+
+```py
+impacket-secretsdump -sam sam -system system LOCAL
+```
 
 
 
