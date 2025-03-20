@@ -38,3 +38,5 @@ rsp -> top of stack
 rbp -> base of stack
 rip -> instruction pointer
 
+64 bit architechture -> rdi, rsi, rdx, rcx, r8, r9, then stack
+```
