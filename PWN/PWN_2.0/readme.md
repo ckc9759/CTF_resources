@@ -20,4 +20,9 @@ Dword -> Double word 4 bytes
 Qword -> Quad word 8 bytes
 ```
 
+```py
+# ldd <filename>
+# ASLR -> randomizes addresses of memory segments i.e. heap and stack -> making difficult of vuln inorder to execute shellcode
+# shellcode -> arbitrary code execution
+```
 
