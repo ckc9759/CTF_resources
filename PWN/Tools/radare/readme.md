@@ -44,6 +44,12 @@ ragg2 -P 100 -r --> De bruijn sequence (-P for length, -r for ascii)
 wop0 <address> for offset
 ```
 
+```py
+dr -> contents of registers
+pxr 30 @ rsp
+px @ rbp
+```
+
 
 
 
