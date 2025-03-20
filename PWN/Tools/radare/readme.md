@@ -20,6 +20,7 @@ pdf --> Print Disassembly Function
 db 0x01b66179 ( breakpoint at a particular address)
 
 db --> debug breakpoint
+dc and pdf to view
 A breakpoint is simply somewhere which, when reached, pauses the program for you to run other commands.
 
 Now we run dc for debug continue; this just carries on running the file.
