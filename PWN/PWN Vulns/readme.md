@@ -30,3 +30,12 @@ info func, disass main, break main, info stack, x, x/p, x $ebp, checksec
 3. Ret2win - Redirect the execution to a win function.
 
 ```
+
+```py
+- Buffer Overflows: When a program writes more data than a buffer can hold, overwriting adjacent memory.
+- Format String Vulnerabilities: Exploiting improper handling of format specifiers in functions like printf.
+- Use-After-Free (UAF): Accessing memory after it has been freed.
+- Heap Exploitation: Manipulating the program's heap memory for malicious purposes.
+- Return-Oriented Programming (ROP): Chaining small instruction sequences to bypass protections like Data Execution Prevention (DEP).
+```
+
