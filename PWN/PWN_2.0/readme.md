@@ -31,3 +31,10 @@ context.binary = binary = "./filename"
 context.log_level = "debug"
 ```
 
+#### Understanding registers
+
+```py
+rsp -> top of stack
+rbp -> base of stack
+rip -> instruction pointer
+
