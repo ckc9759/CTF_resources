@@ -9,7 +9,7 @@ from pwn import *
 
 context.binary = binary = "./filename"
 
-shellcode="\x48\x...."
+shellcode = b"\x48\x...."
 
 p = process
 p = remote('host',port)
