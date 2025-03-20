@@ -26,3 +26,8 @@ Qword -> Quad word 8 bytes
 # shellcode -> arbitrary code execution
 ```
 
+```py
+context.binary = binary = "./filename"
+context.log_level = "debug"
+```
+
