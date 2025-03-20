@@ -16,8 +16,8 @@ checksec <filename> -> File protections
 call setup -> calls a function
 cmp dword -> compares
 jne -> jump not equal
-Dword -> Double word
-Qword -> Quad word
+Dword -> Double word 4 bytes
+Qword -> Quad word 8 bytes
 ```
 
 
