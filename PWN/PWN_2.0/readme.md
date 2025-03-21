@@ -40,3 +40,14 @@ rip -> instruction pointer
 
 64 bit architechture -> rdi, rsi, rdx, rcx, r8, r9, then stack
 ```
+
+```py
+# Finding the offset
+
+from pwn import *
+p = process("./filename")  # Or use remote(host, port) if given
+p.sendline(cyclic(200))  # Send a pattern larger than expected buffer
+p.wait()
+core = p.corefile
+print(cyclic_find(core.read(core.rsp, 4)))
+```
