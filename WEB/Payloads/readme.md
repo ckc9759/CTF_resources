@@ -19,3 +19,8 @@ await fetch("flag.txt").then(response=>response.text())
 ```js
 <iframe src="../../flag.txt" width="1000px" height="1000px"></iframe>
 ```
+
+- Format specifier
+```js
+format=""%Y-%m-%d;%20cat%20flag.txt""
+```
