@@ -10,6 +10,15 @@ checksec <filename> -> File protections
 # NX enabled -> No code execution from stack or heao
 # PIE enabled -> Position independent executable/code
 # Canary -> Stack protection, detects stack smashing
+
+NX enabled : The process mappings won't be writable ( W ) and executable ( X ) at the same time
+No canary found : No stack canaries will be present, this protections is used to prevent the exploitation
+of linear stack buffer overflows.
+No PIE (0x400000) : The program mappings won't be affected by ASLR, only heap, imported libraries
+and stack bases will be randomized.
+Partial RELRO : The program is using lazy binding , which means that imported functions from
+external libraries will be resolved only when called first. This implies that the GOT (Global Offset Table) will
+remain writable during the execution of the program.
 ```
 
 ```py
