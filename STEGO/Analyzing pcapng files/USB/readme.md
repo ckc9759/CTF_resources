@@ -37,4 +37,5 @@ tshark -r ./keyboard.pcapng -Y 'usbhid.data' -T fields -e usbhid.data > keydata.
 9. [Mouse,HID](https://res260.medium.com/usb-pcap-forensics-graphics-tablet-nsec-ctf-2021-writeup-part-2-3-9c6265ca4c40)
 10. [ACSC](https://seriotonctf.github.io/2023/02/26/pcap-1-Writeup-ACSC-2023/index.html)
 11. [URB BULK_BITS](https://blogs.tunelko.com/2017/02/05/bitsctf-tom-and-jerry-50-points/)
-12. 
+12. [Blackhat URB](https://mhamzakhattak.medium.com/blackhat-mea-ctf-qualifications-2023-forensics-usb100-writeup-ab6011b8e985)
+13. [More pcap](https://yan1x0s.medium.com/htb-x-uni-ctf-writeup-forensics-d3d122a71e36)
