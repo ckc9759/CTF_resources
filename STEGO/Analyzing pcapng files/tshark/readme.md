@@ -18,3 +18,10 @@ tshark -r capture.pcapng -Y "frame.len==71" -T fields -e "usbhid.data.axis.x" -e
 -T to set the fields flag.
 -e for extracting the required info needed, in this case (usbhid.data.axis.x) && (usbhid.data.axis.y).
 ```
+
+```py
+# Recon
+tshark -r filename.pcapng -q -z io,phs
+tshark -r filename.pcapng -Y "http.request" -T fields -e http.host -e http.request.uri -> http requests
+tshark -r filename.pcapng -Y 'http.request.uri contains "ebook.pdf"' -T fields -e tcp.stream -? tcp
+```
