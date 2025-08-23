@@ -19,3 +19,11 @@
 %n — Number of bytes written
 ```
 
+Below are some format parameters which can be used and their consequences:
+
+•”%x” Read data from the stack
+•”%s” Read character strings from the process’ memory
+•”%n” Write an integer to locations in the process’ memory
+
+[owasp](https://owasp.org/www-community/attacks/Format_string_attack)
+[liveoverflow](https://www.youtube.com/watch?v=0WvrSfcdq1I)
