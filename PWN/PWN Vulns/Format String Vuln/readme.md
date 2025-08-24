@@ -27,3 +27,8 @@ Below are some format parameters which can be used and their consequences:
 
 [owasp](https://owasp.org/www-community/attacks/Format_string_attack)
 [liveoverflow](https://www.youtube.com/watch?v=0WvrSfcdq1I)
+
+STEPS
+
+1. Find the offset with experimenting - spam a long %x and look for the first repeating occurence, that gives you the offset..
+Test it with aaabbb.....%{n}$x
